@@ -80,7 +80,7 @@ def DefaultPreparationEVN2(mrid:str,xml:str):
 
 
     print(etree.tostring(tree, pretty_print=True))
-    return etree.tostring(tree, pretty_print=True),messageID
+    return etree.tostring(tree, pretty_print=True),messageID_test
 
 
 def UpdateValueByPath( path : str , value : str,xml:str):
