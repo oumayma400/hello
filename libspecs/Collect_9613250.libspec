@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-12T11:28:07Z" lineno="1" name="Collect" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\SELENIUM_Libraries\Collect.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``Collect``.</doc>
+<kw lineno="605" name="Check Collect In M2m By Taskid">
+<arguments>
+<arg>PROJECT</arg>
+<arg>task_id</arg>
+<arg>period</arg>
+<arg>initial_meters_list: list</arg>
+<arg>m2m_collect_path</arg>
+<arg>local_path</arg>
+<arg>xsd_path</arg>
+<arg>estimated_stop_task</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="792" name="Check Collect In M2m Cim Fluvius">
+<arguments>
+<arg>PROJECT</arg>
+<arg>task_id</arg>
+<arg>meter_id</arg>
+<arg>m2m_collect_path</arg>
+<arg>local_path</arg>
+<arg>xsd_path</arg>
+<arg>estimated_stop_task</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="478" name="Clear File From Cim">
+<arguments>
+<arg>PROJECT</arg>
+<arg>cim_file_path</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="60" name="Create Collecte Meter">
+<arguments>
+<arg>driver</arg>
+<arg>list_meters_id</arg>
+<arg>profile</arg>
+<arg>collect_type</arg>
+<arg>Scheduling</arg>
+<arg>target_type</arg>
+<arg>collect_start_date</arg>
+<arg>collect_stop_date</arg>
+<arg>recovery_mode</arg>
+<arg>periodicity</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="497" name="Local Download File">
+<arguments>
+<arg>PROJECT</arg>
+<arg>local_path</arg>
+<arg>remote_path</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="521" name="Loop In Cim">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_list</arg>
+<arg>local_path</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="756" name="Loop In Cim Fluvius">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>local_path</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="600" name="Save Collect Response">
+<arguments>
+<arg>PROJECT</arg>
+<arg>msg</arg>
+<arg>profile</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="727" name="Test Log2">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="593" name="Validate Cim Collect File">
+<arguments>
+<arg>collect_file</arg>
+<arg>xsd_file</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="733" name="Validate Collect DateTime">
+<arguments>
+<arg>local_path</arg>
+<arg>dt</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="714" name="Write">
+<arguments>
+<arg>msg</arg>
+<arg>level=INFO</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

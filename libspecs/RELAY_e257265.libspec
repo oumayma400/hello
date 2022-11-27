@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-12T11:28:09Z" lineno="1" name="RELAY" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\Relay_Libraries\RELAY.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``RELAY``.</doc>
+<kw name="Calcsize">
+<arguments>
+<arg>format</arg>
+</arguments>
+<doc>Return size in bytes of the struct described by the format string.</doc>
+</kw>
+<kw lineno="45" name="Click Relay 1">
+<arguments>
+<arg>PROJECT</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="56" name="Click Relay 2">
+<arguments>
+<arg>PROJECT</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="61" name="Get Relay States">
+<arguments>
+<arg>PROJECT</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Iter Unpack">
+<arguments>
+<arg>format</arg>
+<arg>buffer</arg>
+</arguments>
+<doc>Return an iterator yielding tuples unpacked from the given bytes.
+
+The bytes are unpacked according to the format string, like
+a repeated invocation of unpack_from().
+
+Requires that the bytes length be a multiple of the format struct size.</doc>
+</kw>
+<kw name="Pack">
+<arguments>
+<arg>*args</arg>
+</arguments>
+<doc>pack(format, v1, v2, ...) -&gt; bytes
+
+Return a bytes object containing the values v1, v2, ... packed according
+to the format string.  See help(struct) for more on format strings.</doc>
+</kw>
+<kw name="Pack Into">
+<arguments>
+<arg>*args</arg>
+</arguments>
+<doc>pack_into(format, buffer, offset, v1, v2, ...)
+
+Pack the values v1, v2, ... according to the format string and write
+the packed bytes into the writable buffer buf starting at offset.  Note
+that the offset is a required argument.  See help(struct) for more
+on format strings.</doc>
+</kw>
+<kw lineno="30" name="Send Command">
+<arguments>
+<arg>PROJECT</arg>
+<arg>cmd</arg>
+<arg>read_response=False</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="42" name="Turn Relay 1 Off">
+<arguments>
+<arg>PROJECT</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="39" name="Turn Relay 1 On">
+<arguments>
+<arg>PROJECT</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="53" name="Turn Relay 2 Off">
+<arguments>
+<arg>PROJECT</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="50" name="Turn Relay 2 On">
+<arguments>
+<arg>PROJECT</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Unpack">
+<arguments>
+<arg>format</arg>
+<arg>buffer</arg>
+</arguments>
+<doc>Return a tuple containing values unpacked according to the format string.
+
+The buffer's size in bytes must be calcsize(format).
+
+See help(struct) for more on format strings.</doc>
+</kw>
+<kw name="Unpack From">
+<arguments>
+<arg>format</arg>
+<arg>buffer</arg>
+<arg>offset=0</arg>
+</arguments>
+<doc>Return a tuple containing values unpacked according to the format string.
+
+The buffer's size, minus offset, must be at least calcsize(format).
+
+See help(struct) for more on format strings.</doc>
+</kw>
+<kw lineno="72" name="Usage">
+<arguments>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

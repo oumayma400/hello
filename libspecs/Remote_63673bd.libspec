@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-01-14T15:43:37Z" lineno="43" name="Remote" namedargs="true" scope="SUITE" source="C:\Users\g361355\AppData\Local\Programs\Python\Python37\lib\site-packages\robot\libraries\Remote.py" specversion="2" type="LIBRARY">
+<version />
+<scope>test suite</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``Remote``.</doc>
+<init lineno="46">
+<arguments>
+<arg>uri=http://127.0.0.1:8270</arg>
+<arg>timeout=None</arg>
+</arguments>
+<doc>Connects to a remote server at ``uri``.
+
+Optional ``timeout`` can be used to specify a timeout to wait when
+initially connecting to the server and if a connection accidentally
+closes. Timeout can be given as seconds (e.g. ``60``) or using
+Robot Framework time format (e.g. ``60s``, ``2 minutes 10 seconds``).
+
+The default timeout is typically several minutes, but it depends on
+the operating system and its configuration. Notice that setting
+a timeout that is shorter than keyword execution time will interrupt
+the keyword.
+
+Timeouts do not work with IronPython.</doc>
+</init>
+<kw name="Activate Activity Calendar">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Activate Image">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Alarm Bit Check">
+<arguments>
+<arg>Alarm</arg>
+<arg>szTablebit</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Alarm Filter Set">
+<arguments>
+<arg>Alarm</arg>
+<arg>szValue</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Banc">
+<arguments>
+<arg>dict</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="BANC Cmd">
+<arguments>
+<arg>tuiCommande</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Block Transfert">
+<arguments>
+<arg>Firmware_File</arg>
+<arg>uiNbBlock</arg>
+<arg>ImageBlockSize</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Breaker Connect Disconnect">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Check Authorization">
+<arguments>
+<arg>Firmwareversion</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Check Default Values Object">
+<arguments>
+<arg>one_asso_name</arg>
+<arg>obj_name</arg>
+<arg>product_name</arg>
+<arg>black_list=[]</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Check Objects From XML File">
+<arguments>
+<arg>Product</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Close">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Cmd Cli">
+<arguments>
+<arg>cmd</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Compare Horo Date All Field">
+<arguments>
+<arg>tuiDate1</arg>
+<arg>tuiDate2</arg>
+<arg>bWithSeconds=False</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="CompareHoroDate AllField2">
+<arguments>
+<arg>tuiDate1</arg>
+<arg>tuiDate2</arg>
+<arg>bWithSeconds=True</arg>
+<arg>bDevStat=False</arg>
+<arg>uiMarge=0</arg>
+<arg>bWithMin=True</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Connect">
+<arguments>
+<arg>client_addr</arg>
+<arg>link_type</arg>
+</arguments>
+<doc>Connect</doc>
+</kw>
+<kw name="Connect To Server">
+<arguments>
+<arg>host</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Convert Obis Code">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Convert Seconds Set">
+<arguments>
+<arg>date</arg>
+<arg>secplus</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Cos">
+<arguments>
+<arg>x</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="COSEM ACTION">
+<arguments>
+<arg>strDicFile</arg>
+<arg>attr</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Cosem Action With List">
+<arguments>
+<arg>objList</arg>
+<arg>valList</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Cosem Get">
+<arguments>
+<arg>strDicFile</arg>
+<arg>attr</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Cosem Get With List">
+<arguments>
+<arg>objList</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Cosem Get WithReturnValue">
+<arguments>
+<arg>strDicFile</arg>
+<arg>attr</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="COSEM SET">
+<arguments>
+<arg>strDicFile</arg>
+<arg>attr</arg>
+<arg>data</arg>
+<arg>TypeData</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Cosem Set With List">
+<arguments>
+<arg>objList</arg>
+<arg>valList</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Create Capture List">
+<arguments>
+<arg>tuiCaptureList</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Disconnect From Server">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Dispalyevents After FW">
+<arguments>
+<arg>Recordlist</arg>
+<arg>product</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Fill Billing Buffer">
+<arguments>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Fillloadprofile">
+<arguments>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Fillloadprofile 2">
+<arguments>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Firmware Down Load">
+<arguments>
+<arg>Firmwareversion</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Firmware Down Load Activate">
+<arguments>
+<arg>Firmwareversion</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Flashing Version">
+<arguments>
+<arg>mode</arg>
+<arg>version</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Fw Status Not Intitiated">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Fw Transfert Initiate">
+<arguments>
+<arg>Firmware_File</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Activation Changement">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get All Files">
+<arguments>
+<arg>product_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Allobjects">
+<arguments>
+<arg>Product</arg>
+<arg>FileName</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Breaker State">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get BreakerMode">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Buffer">
+<arguments>
+<arg>puiBuffer</arg>
+<arg>szTypeLog</arg>
+<arg>bPartial=False</arg>
+<arg>tuiStartDate=[]</arg>
+<arg>tuiEndDate=[]</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Calendar Name">
+<arguments>
+<arg>pszNameCalendar</arg>
+<arg>uiContrat</arg>
+<arg>bActive=True</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Capture List">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Clock Status">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Config Param">
+<arguments>
+<arg>filename</arg>
+<arg>Section</arg>
+<arg>Object</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Current Tarif">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Day Profile">
+<arguments>
+<arg>pszListDay</arg>
+<arg>uiContrat</arg>
+<arg>bActive=True</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Device ID">
+<arguments>
+<arg>DeviceSerial</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Enable Transfer">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Energy Register">
+<arguments>
+<arg>szType</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Entry In Use">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Error Register">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="GET Image Path">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="GET Image Path List">
+<arguments>
+<arg>List</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="GET Imagewrong Path">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Instantaneous Power">
+<arguments>
+<arg>szInstantaneousPower</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Instantaneous Power Factor">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Integration Period">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get List Object Name From Capture List">
+<arguments>
+<arg>tuiCaptureList</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Local Horo Date">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get MaximumDemand ActivepowerExport">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get MaximumDemand ActivepowerImport">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Get MaximumDemandValue">
+<arguments>
+<arg>szEnergy</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Power Factor">
+<arguments>
+<arg>szType</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Profiles Capture List">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Season Profile">
+<arguments>
+<arg>pszListSeason</arg>
+<arg>uiContrat</arg>
+<arg>bActive=True</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Special Day">
+<arguments>
+<arg>puiSpecialDay</arg>
+<arg>uiContrat</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Get Week Profile">
+<arguments>
+<arg>pszListWeek</arg>
+<arg>uiContrat</arg>
+<arg>bActive=True</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Getentry In Use Of Allevents Log">
+<arguments>
+<arg>product</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Image Verify">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Last Record Buffer">
+<arguments>
+<arg>puiBuffer</arg>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="LOG Get Buffer">
+<arguments>
+<arg>puiBuffer</arg>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="LP Get Profile Entries">
+<arguments>
+<arg>szType</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="LP Set Capture Period">
+<arguments>
+<arg>szType</arg>
+<arg>uiPeriode</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="OBISXML File Config Logical Name">
+<arguments>
+<arg>Xmlfile</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Power Meter">
+<arguments>
+<arg>OnOff</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Power On">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Poweroff">
+<arguments>
+<arg>PowerOffPeriode</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Read DLMS Class">
+<arguments>
+<arg>Obis</arg>
+<arg>Attribute</arg>
+<arg>ClassID</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Read Obis">
+<arguments>
+<arg>classid</arg>
+<arg>obis</arg>
+<arg>attribut</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Reset Alarm Error">
+<arguments>
+<arg>Alarm</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Reset Buffer">
+<arguments>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Activation Changement">
+<arguments>
+<arg>bEtat</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Activation Time">
+<arguments>
+<arg>tuiExecDateTime</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Adhoc Endofbillingperiod 1 Scheduler Exce Time">
+<arguments>
+<arg>tuiExecDateTime</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set BreakerMode">
+<arguments>
+<arg>uiMode</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set CalendarName">
+<arguments>
+<arg>CalendarNamePassive</arg>
+<arg>uiContrat</arg>
+<arg>bActive=False</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Class 7 Capture List">
+<arguments>
+<arg>szTypeLog</arg>
+<arg>szTabCapture</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set CurrentDate">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Day Light">
+<arguments>
+<arg>tuiHoroDate</arg>
+<arg>bBegin</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set DayProfile">
+<arguments>
+<arg>pszScript</arg>
+<arg>pszListDay</arg>
+<arg>uiContrat</arg>
+<arg>bActive=False</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Endofbillingperiod 1 Scheduler Exce Time">
+<arguments>
+<arg>tuiExecDateTime</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Horo Date">
+<arguments>
+<arg>tuiHoroDate</arg>
+<arg>deviation=32768</arg>
+<arg>status=255</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Image Block Size">
+<arguments>
+<arg>uiSizeBlock</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Integration Period">
+<arguments>
+<arg>uiPeriode</arg>
+<arg>szTypeLog</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Meter Default Value">
+<arguments>
+<arg>Product</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Mode">
+<arguments>
+<arg>mode</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Objects From XML File">
+<arguments>
+<arg>Product</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Passive Activate Time">
+<arguments>
+<arg>tuiHoroDate</arg>
+<arg>uiContrat</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Profiles Capture List">
+<arguments>
+<arg>szTypeLog</arg>
+<arg>szTabCapture</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set RemoteMode">
+<arguments>
+<arg>b_RemoteMode</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set SeasonProfile">
+<arguments>
+<arg>pszListSeasonPassive</arg>
+<arg>uiContrat</arg>
+<arg>bActive=False</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set SpecialDay">
+<arguments>
+<arg>puiSpecialDay</arg>
+<arg>uiContrat</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set Time Zone">
+<arguments>
+<arg>uiTimeZone</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Set WeekProfile">
+<arguments>
+<arg>pszListWeek</arg>
+<arg>uiContrat</arg>
+<arg>bActive=False</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Sin">
+<arguments>
+<arg>x</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Square Root">
+<arguments>
+<arg>x</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Stop Remote Server">
+<arguments>
+</arguments>
+<doc>Stop the remote server unless stopping is disabled.
+
+Return ``True/False`` depending was server stopped or not.</doc>
+</kw>
+<kw name="Transfert Enable">
+<arguments>
+<arg>pztype</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Transfert Status Get">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw name="Update Address">
+<arguments>
+<arg>DeviceSerial</arg>
+</arguments>
+<doc />
+</kw>
+<kw name="Wait To Horodate">
+<arguments>
+<arg>tuiDate</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

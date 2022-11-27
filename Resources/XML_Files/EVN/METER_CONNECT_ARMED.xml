@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<MeterAssetConnectArmedRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterConnectArmed</noun>
+		<revision>1</revision>
+		<dateTime>2017-07-13T03:26:16-08:00</dateTime>
+		<source>MDMS</source>
+		<messageID>MeterConnectArmed-207-3206-2</messageID>
+	</header>
+	<payload>
+		<meterAsset>
+			<mRID>178210000207</mRID>
+			<idType>METER_X_UDC_ASSET_ID</idType>
+			<pathName>MDMS</pathName>
+			<parameter>
+				<name>profileName</name>
+				<value>criticalCommandArmedConnect</value>
+			</parameter>
+
+			<modelNumber>MONO</modelNumber>
+			<serialNumber>XYZ</serialNumber>
+		</meterAsset>
+		<requestPriority>1</requestPriority>
+		<executeStartTime>2020-05-07T14:20:00</executeStartTime>
+	</payload>
+</MeterAssetConnectArmedRequestMessage>

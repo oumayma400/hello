@@ -1,0 +1,57 @@
+<ami:MeterAssetAddRequestMessage
+	xmlns:ami="http://www.emeter.com/energyip/amiinterface">
+	<ami:header>
+		<ami:verb>request</ami:verb>
+		<ami:noun>MeterAdd</ami:noun>
+		<ami:revision>1</ami:revision>
+		<ami:dateTime>2018-07-19T06:57:00.324Z</ami:dateTime>
+		<ami:source>ELLEVIO</ami:source>
+		<ami:messageID>01455548445565665559</ami:messageID>
+		<ami:utilityId>AddRahma1</ami:utilityId>
+	</ami:header>
+	<ami:payload>
+		<ami:meterAsset>
+			<ami:mRID>80043700621613125383363500151423</ami:mRID>
+			<ami:idType>METER_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+
+			<ami:modelNumber>DIG E-METER 2DR 230V 5(60)A</ami:modelNumber>
+			<ami:serialNumber>XYZ</ami:serialNumber>
+			<ami:numDigits>6</ami:numDigits>
+		</ami:meterAsset>
+		<ami:comFunction>
+			<ami:mRID>CM_DEVICE_TEST_SMR-E_1_20180719_0003</ami:mRID>
+			<ami:idType>METER_COMMUNICATION_MODULE_X_UDC_ASSET_ID</ami:idType>
+		</ami:comFunction>
+		<ami:serviceDeliveryPoint>
+			<ami:mRID>SDP_TEST_SMR-E_1_20180719_0003</ami:mRID>
+			<ami:idType>SDP_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+			<ami:serviceType>SMR-E</ami:serviceType>
+			<ami:locationCode>DefaultLocationCode</ami:locationCode>
+			<ami:serviceDeliveryRemarks>DefaultServiceDeliveryRemarks</ami:serviceDeliveryRemarks>
+			<ami:latitude>0.0</ami:latitude>
+			<ami:longitude>0.0</ami:longitude>
+		</ami:serviceDeliveryPoint>
+		<ami:serviceLocation>
+			<ami:mRID>PREM_SDP_TEST_SMR-E_1_20180719_0003</ami:mRID>
+			<ami:idType>PREMISE_X_CLIENT_PRMSE_ID</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+			<ami:addressGeneral>-</ami:addressGeneral>
+			<ami:addressGeneral2>-</ami:addressGeneral2>
+			<ami:city>-</ami:city>
+			<ami:stateOrProvince>VLA</ami:stateOrProvince>
+			<ami:country>Sweden</ami:country>
+			<ami:postalCode>-</ami:postalCode>
+		</ami:serviceLocation>
+		<ami:customerAccount>
+			<ami:mRID>TEST1_180719000003</ami:mRID>
+			<ami:idType>ACCOUNT_X_UDC_ID</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+			<ami:billingCycle>DefaultBillingCycle</ami:billingCycle>
+		</ami:customerAccount>
+		<ami:requestPriority>2</ami:requestPriority>
+		<ami:executeStartTime>2018-07-19T06:57:00.231Z</ami:executeStartTime>
+		<ami:executeExpireTime>2018-07-20T06:57:00.000Z</ami:executeExpireTime>
+	</ami:payload>
+</ami:MeterAssetAddRequestMessage>

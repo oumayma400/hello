@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+	<version>115</version>
+	<Server.WAN1.HeartBeatTimeout>
+		<value>60</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.HeartBeatTimeout>
+	<LanManager.PlcG3Mac.Zeno.CENA.LineDriverGain>
+		<value>6</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Zeno.CENA.LineDriverGain>
+	<Server.ILOC.Broadcast>
+		<value>10.0.0.255</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.Broadcast>
+	<LanManager.IP.IP_Ping_Size>
+		<value>32</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.IP.IP_Ping_Size>
+	<LanManager.Hybrid.PktEnFEC>
+		<value>0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.PktEnFEC>
+	<LanManager.PlcG3.RF_RSSINoiseCsMargin>
+		<value>15</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3.RF_RSSINoiseCsMargin>
+	<Server.Config.URL>
+		<value>http://[2016:aa36:b2ff:0:d8e5:8648:921f:e38c]:8040/gwConfigFEServlet/getGatewayConfig</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Config.URL>
+	<LanManager.BroadcastPingPeriod>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.BroadcastPingPeriod>
+	<LanManager.COSEMScheduler.MaxComTimeout>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.MaxComTimeout>
+	<LanManager.PlcG3Mac.Mac_High_Priority_Window_Size>
+		<value>7</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_High_Priority_Window_Size>
+	<Server.IPv4RangeAllowed>
+		<value>ACCEPT_ALL</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.IPv4RangeAllowed>
+	<Scheduler.BroadcastSecurityPolicy>
+		<value>252</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Scheduler.BroadcastSecurityPolicy>
+	<Server.WAN2.Gateway>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.Gateway>
+	<LanManager.PanId>
+		<value>65535</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PanId>
+	<LanManager.NeighbourLossCheckPeriod>
+		<value>60</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.NeighbourLossCheckPeriod>
+	<LanManager.COSEMScheduler.SelectiveCollect.EnableAlarms>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.SelectiveCollect.EnableAlarms>
+	<Server.WAN1.User>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.User>
+	<LanManager.PlcG3Adp.Adp_High_LQI_Value_RF>
+		<value>254</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_High_LQI_Value_RF>
+	<LanManager.PlcG3Adp.Adp_Max_Hops>
+		<value>14</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Max_Hops>
+	<Date.TimeDevMaxCheckInterval>
+		<value>604800</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.TimeDevMaxCheckInterval>
+	<LanManager.PlcG3Mac.Mac_DutyCycleThreshold_RF>
+		<value>90</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_DutyCycleThreshold_RF>
+	<Server.Jms.Queue.TaskScheduler.In>
+		<value>SCHEDULER_TOGATEWAY</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.TaskScheduler.In>
+	<LanManager.PlcG3Adp.Adp_Add_Rev_Link_Cost>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Add_Rev_Link_Cost>
+	<LanManager.Init.Delay>
+		<value>40</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.Init.Delay>
+	<Server.WAN1.Netmask>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.Netmask>
+	<LanManager.PlcG3Adp.Adp_High_LQI_Value>
+		<value>108</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_High_LQI_Value>
+	<Server.WAN2.DNS2>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.DNS2>
+	<Server.WAN2.DNS1>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.DNS1>
+	<General.Timezone>
+		<value>Europe/Vienna</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</General.Timezone>
+	<LanManager.IP.PrefixMode>
+		<value>Automatic</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.IP.PrefixMode>
+	<Server.WAN2.IPMode>
+		<value>4</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.IPMode>
+	<LanManager.PlcG3Mac.Mac_CSMA_Fairness_Limit>
+		<value>25</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_CSMA_Fairness_Limit>
+	<LanManager.PlcG3Mac.Zeno.FCC.IAFEBufferGain>
+		<value>0.75</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Zeno.FCC.IAFEBufferGain>
+	<LanManager.PlcG3Mac.Mac_Tone_Mask_CENA>
+		<value>000000000000000007FFFFFFFF800000</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Tone_Mask_CENA>
+	<LanManager.PlcG3Mac.Mac_TMR_TTL>
+		<value>10</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_TMR_TTL>
+	<Server.Websockets.PingPeriod>
+		<value>180</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Websockets.PingPeriod>
+	<Server.Config.FirmwareValidationDelay>
+		<value>3600</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Config.FirmwareValidationDelay>
+	<LanManager.Hybrid.RadioModSelect>
+		<value>0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.RadioModSelect>
+	<Date.TimeMinRetryInterval>
+		<value>259200</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.TimeMinRetryInterval>
+	<Server.Jms.cat2.deliveryDelay>
+		<value>180</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.cat2.deliveryDelay>
+	<LanManager.Vanished_State_Max_Nb_Com_Failed>
+		<value>3</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.Vanished_State_Max_Nb_Com_Failed>
+	<Server.DataGathering.URL>
+		<value>http://[2016:aa36:b2ff:0:d8e5:8648:921f:e38c]:8080/buds_fe/DdcRsp</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.DataGathering.URL>
+	<Server.ILOC.DefaultLeaseTime>
+		<value>86400</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.DefaultLeaseTime>
+	<Server.NTP.ConnectionPeriod>
+		<value>86400</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.NTP.ConnectionPeriod>
+	<Server.Jms.Queue.DcManager.EventExcludeFilter>
+		<value />
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.DcManager.EventExcludeFilter>
+	<Server.Websockets.PingTimeOut>
+		<value>20</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Websockets.PingTimeOut>
+	<LanManager.IP.MinDelayBetweenRAs>
+		<value>120</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.IP.MinDelayBetweenRAs>
+	<LanManager.Lost_Alarm_Timeout>
+		<value>1440</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.Lost_Alarm_Timeout>
+	<LanManager.WithDlms>
+		<value>TRUE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</LanManager.WithDlms>
+	<LanManager.PlcG3Adp.Adp_Weak_LQI_Value>
+		<value>56</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Weak_LQI_Value>
+	<Server.WAN1.AllowedAccessTechnologies>
+		<value>ALL</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.AllowedAccessTechnologies>
+	<Server.WAN1.StatCapturePeriod>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.StatCapturePeriod>
+	<Date.Deviation>
+		<value>30</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.Deviation>
+	<Server.WAN2.6rdGateway>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.6rdGateway>
+	<WebGUI.DoRevocationChecking>
+		<value>FALSE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</WebGUI.DoRevocationChecking>
+	<LanManager.PlcG3Adp.Adp_Kdc_RF>
+		<value>4</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Kdc_RF>
+	<Server.CMP.AutomaticRenewal>
+		<value>TRUE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Server.CMP.AutomaticRenewal>
+	<LanManager.COSEMScheduler.LoadProfile.SetHundredthsToZeroInSelectiveAccessTime>
+		<value>FALSE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.LoadProfile.SetHundredthsToZeroInSelectiveAccessTime>
+	<Server.Config.FirmwareUpdateCheckVersion>
+		<value>FALSE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</Server.Config.FirmwareUpdateCheckVersion>
+	<Server.WAN1.APN>
+		<value>internet.ooredoo.tn</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.APN>
+	<LanManager.PlcG3.PEChannelConfig>
+		<value>3</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3.PEChannelConfig>
+	<LanManager.COSEMScheduler.DynamicTimeoutSlots>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.DynamicTimeoutSlots>
+	<Server.ILOC.DNS2>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.DNS2>
+	<Server.ILOC.DNS1>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.DNS1>
+	<Date.TimeDevMaxSetInterval>
+		<value>1814400</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.TimeDevMaxSetInterval>
+	<LanManager.PlcG3Adp.Adp_Active_Scan_Duration>
+		<value>15</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Active_Scan_Duration>
+	<LanManager.PlcG3Adp.Adp_RLC_Enabled>
+		<value>FALSE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_RLC_Enabled>
+	<Server.WAN1.MaxErrorBeforeRestart>
+		<value>5</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.MaxErrorBeforeRestart>
+	<Server.Websockets.URL>
+		<value>ws://[2016:aa36:b2ff:0:d8e5:8648:921f:e38c]:8082/wso_fe/callbackIP</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Websockets.URL>
+	<LanManager.CheckDeviceCertificate>
+		<value>FALSE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.CheckDeviceCertificate>
+	<LanManager.BandPlan>
+		<value>1</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.BandPlan>
+	<Server.WAN1.HeartBeatPeriod>
+		<value>5</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.HeartBeatPeriod>
+	<LanManager.Hybrid.RadioRSSIGain>
+		<value>0x0e</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.RadioRSSIGain>
+	<LanManager.PlcG3Adp.Adp_UseBackupMedia>
+		<value>1</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_UseBackupMedia>
+	<LanManager.Mcast.DestinationGroups>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Mcast.DestinationGroups>
+	<Server.WAN.MaxDaysWithoutWanBeforeReboot>
+		<value>1</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN.MaxDaysWithoutWanBeforeReboot>
+	<LanManager.PlcG3Adp.Adp_Krt>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Krt>
+	<Server.Jms.Queue.TaskScheduler.Out>
+		<value>SCHEDULER_FROMGATEWAY</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.TaskScheduler.Out>
+	<LanManager.PlcG3Mac.Mac_Tone_Mask_FCC>
+		<value>000000000203821E1FFFFFFE00000000</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Tone_Mask_FCC>
+	<WebGUI.Inactivity.Timeout>
+		<value>60</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</WebGUI.Inactivity.Timeout>
+	<Server.SSH.Enable>
+		<value>TRUE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Server.SSH.Enable>
+	<JMS.TTL.DiscoveryReq_retransmission_period>
+		<value>3600</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</JMS.TTL.DiscoveryReq_retransmission_period>
+	<Server.WAN2.User>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.User>
+	<Server.ILOC.Netmask>
+		<value>255.255.255.0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.Netmask>
+	<LanManager.PlcG3.RF_DisablePhy>
+		<value>0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3.RF_DisablePhy>
+	<Server.Config.ConnectionPeriod>
+		<value>7200</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Config.ConnectionPeriod>
+	<Date.TimeForceRetryInterval>
+		<value>36000</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.TimeForceRetryInterval>
+	<LanManager.BGTK_communication_mechanism>
+		<value>FALSE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.BGTK_communication_mechanism>
+	<Server.ILOC.Range2>
+		<value>10.0.0.40</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.Range2>
+	<Server.ILOC.Range1>
+		<value>10.0.0.20</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.Range1>
+	<Server.WAN1.CPIN>
+		<value>0000</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.CPIN>
+	<LanManager.Hybrid.PlatformMode>
+		<value>2</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.PlatformMode>
+	<LanManager.CommunicabilityNumResultsToCheck>
+		<value>10</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.CommunicabilityNumResultsToCheck>
+	<LanManager.COSEMScheduler.NumberOfParallelizableRequestsPerMeter>
+		<value>1</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.NumberOfParallelizableRequestsPerMeter>
+	<LanManager.COSEMScheduler.ParallelRequestsOptimization>
+		<value>DISABLE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.ParallelRequestsOptimization>
+	<Server.Jms.Queue.PlcLanManager.In>
+		<value>LANMANAGER_TOGATEWAY</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.PlcLanManager.In>
+	<Server.WANBackup.SwitchBackToPrimaryTime>
+		<value>6</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WANBackup.SwitchBackToPrimaryTime>
+	<Server.CMP.URL.Renewal>
+		<value>http://172.30.12.19:8101/ejbca/publicweb/cmp/LuxCMPTLS</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.CMP.URL.Renewal>
+	<Scheduler.plcDeviceFirmwarePackageUrl>
+		<value>http://[2016:aa36:b2ff:0:d8e5:8648:921f:e38c]:80/plcDevices</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Scheduler.plcDeviceFirmwarePackageUrl>
+	<LanManager.NumTriesForPeriodAdaptation_down>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.NumTriesForPeriodAdaptation_down>
+	<LanManager.AlternatePlcMeterEquipmentTypes>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.AlternatePlcMeterEquipmentTypes>
+	<LanManager.PlcG3Mac.Mac_Min_BE>
+		<value>3</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Min_BE>
+	<Server.WANBackup.NbMaxPresenceFailure>
+		<value>5</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WANBackup.NbMaxPresenceFailure>
+	<LanManager.PlcG3Adp.Adp_Kq_RF>
+		<value>10</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Kq_RF>
+	<LanManager.AlternatePanDetectionMinPeriod>
+		<value>3600</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.AlternatePanDetectionMinPeriod>
+	<LanManager.PlcG3Mac.Mac_AckTimeout_RF>
+		<value>25</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_AckTimeout_RF>
+	<LanManager.ForcedMaxPduSize>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.ForcedMaxPduSize>
+	<General.SerialNumber>
+		<value>SAG0990090000771</value>
+		<scope />
+		<access>READ_ONLY</access>
+	</General.SerialNumber>
+	<Recovery.MinWaitTime>
+		<value>300</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Recovery.MinWaitTime>
+	<Server.Jms.MinimumConnectionPeriod>
+		<value>60</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.MinimumConnectionPeriod>
+	<LanManager.COSEMScheduler.SelectiveCollect.FilterObject>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.SelectiveCollect.FilterObject>
+	<LanManager.COSEMScheduler.ComRegularMarginPercentage>
+		<value>30</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.ComRegularMarginPercentage>
+	<Server.ILOC.IP>
+		<value>10.0.0.1</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.IP>
+	<WebGUI.Provider.List>
+		<value>PLC;PARAMETERS;PERFORMANCE;FIRMWARE;EVENTSCONFIG;METERS;BLACKLIST;TASKS;LOGS;EVENTS;DIAGNOSIS</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</WebGUI.Provider.List>
+	<LanManager.PlcG3Adp.Adp_Kh_RF>
+		<value>10</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Kh_RF>
+	<Server.WAN1.ReferenceTime>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.ReferenceTime>
+	<General.AutomaticRebootTimeSpec>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</General.AutomaticRebootTimeSpec>
+	<LanManager.MetersMaxJoinWaitTime>
+		<value>180</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.MetersMaxJoinWaitTime>
+	<LanManager.Hybrid.RadioFreqDev>
+		<value>0x000030d4</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.RadioFreqDev>
+	<Server.WAN2.Netmask>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.Netmask>
+	<Server.Jms.Queue.TaskScheduler.EventExcludeFilter>
+		<value />
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.TaskScheduler.EventExcludeFilter>
+	<LanManager.PlcG3Adp.Adp_Unicast_RREQ_Gen_Enable>
+		<value>FALSE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Unicast_RREQ_Gen_Enable>
+	<LanManager.PlcG3Mac.Zeno.CENA.IAFEBufferGain>
+		<value>1.5</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Zeno.CENA.IAFEBufferGain>
+	<LOG.UnsupportedLogs>
+		<value>EVT_K_USB_ACTIVITY;EVT_K_USB_AUTOMATIC_DEACTIVATION;EVT_K_USB_INACTIVITY</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</LOG.UnsupportedLogs>
+	<General.Version>
+		<value>7.6.0.9999</value>
+		<scope />
+		<access>READ_ONLY</access>
+	</General.Version>
+	<LanManager.PlcG3Adp.Adp_Metric_Type>
+		<value>15</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Metric_Type>
+	<LanManager.BGTK_Vanished_State_Validity_Duration>
+		<value>300</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.BGTK_Vanished_State_Validity_Duration>
+	<Server.Presence.ConnectionPeriod>
+		<value>300</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Presence.ConnectionPeriod>
+	<Server.ILOC.IPVersionProtocole>
+		<value>FALSE</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.IPVersionProtocole>
+	<LanManager.Hybrid.RadioCSBlanking>
+		<value>1</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.RadioCSBlanking>
+	<LanManager.IP.PrefixOffset>
+		<value>+0000:0000:1111::/64</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.IP.PrefixOffset>
+	<LanManager.PlcG3Mac.Mac_Transmit_Atten>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Transmit_Atten>
+	<Date.TimeDevMaxCheckIntervalInitial>
+		<value>600</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.TimeDevMaxCheckIntervalInitial>
+	<WebGUI.ClientAuth.Password>
+		<value>FALSE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</WebGUI.ClientAuth.Password>
+	<Server.WAN1.HeartBeatIPBackup>
+		<value>192.168.130.37</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.HeartBeatIPBackup>
+	<Server.Websockets.ConnectRetryPeriod>
+		<value>60</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Websockets.ConnectRetryPeriod>
+	<LanManager.PlcG3Adp.Adp_Low_LQI_Value_RF>
+		<value>0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Low_LQI_Value_RF>
+	<Server.ILOC.MaxLeaseTime>
+		<value>129600</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.MaxLeaseTime>
+	<Server.WAN1.HeartBeatMaxRetry>
+		<value>5</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.HeartBeatMaxRetry>
+	<LanManager.PlcG3Adp.Adp_Blacklist_Table_Entry_TTL>
+		<value>10</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Blacklist_Table_Entry_TTL>
+	<LanManager.NumTriesForPeriodAdaptation>
+		<value>5</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.NumTriesForPeriodAdaptation>
+	<Server.WAN1.HeartBeatIP>
+		<value>192.168.130.33</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.HeartBeatIP>
+	<Server.WAN1.AutoReconnect>
+		<value>TRUE</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.AutoReconnect>
+	<WebGUI.CRL.Download.RandomInterval>
+		<value>600</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</WebGUI.CRL.Download.RandomInterval>
+	<LanManager.PlcG3Mac.Mac_Max_CSMA_Backoffs>
+		<value>50</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Max_CSMA_Backoffs>
+	<Scheduler.plcFirmwareDownloadRetry>
+		<value>3</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Scheduler.plcFirmwareDownloadRetry>
+	<Server.ILOC.IPMode>
+		<value>3</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.IPMode>
+	<LanManager.PlcG3Adp.Adp_Kr>
+		<value>8</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Kr>
+	<LanManager.Init.Period>
+		<value>360</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Init.Period>
+	<LanManager.PlcG3Mac.Mac_DutyCyclePeriod_RF>
+		<value>3600</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_DutyCyclePeriod_RF>
+	<LanManager.PlcG3Adp.Adp_Kq>
+		<value>10</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Kq>
+	<LanManager.COSEMScheduler.COSEMComTimeout>
+		<value>45</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.COSEMComTimeout>
+	<LanManager.MaxPeriodGrowthFactor>
+		<value>4</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.MaxPeriodGrowthFactor>
+	<Server.Jms.cat3.deliveryDelay>
+		<value>1800</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.cat3.deliveryDelay>
+	<LanManager.PlcG3Adp.Adp_Km>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Km>
+	<Server.WAN1.AuthType>
+		<value>CHAP</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.AuthType>
+	<LanManager.PlcG3Adp.Adp_Routing_Table_Entry_TTL>
+		<value>1440</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Routing_Table_Entry_TTL>
+	<LanManager.IP.IP_Ping_Timeout>
+		<value>45000</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.IP.IP_Ping_Timeout>
+	<Server.NTP.UseSecureNTP>
+		<value>FALSE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.NTP.UseSecureNTP>
+	<LanManager.PlcG3Adp.Adp_Kh>
+		<value>4</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Kh>
+	<LanManager.PlcG3Adp.Adp_Kc>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Kc>
+	<WebGUI.Max.Connection>
+		<value>10</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</WebGUI.Max.Connection>
+	<LanManager.ErrorReason_EnumerateName_Enabled>
+		<value>TRUE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.ErrorReason_EnumerateName_Enabled>
+	<Server.WAN2.IPVersionProtocole>
+		<value>TRUE</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.IPVersionProtocole>
+	<WebGUI.CRL.Download.URL>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</WebGUI.CRL.Download.URL>
+	<Server.CMP.RetryPeriod>
+		<value>3600</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.CMP.RetryPeriod>
+	<LanManager.COSEMScheduler.SelectiveCollect.VerifyObject>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.SelectiveCollect.VerifyObject>
+	<Server.DataGathering.ConnectionPeriod>
+		<value>1800</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.DataGathering.ConnectionPeriod>
+	<LanManager.Mcast.SourceAddress>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Mcast.SourceAddress>
+	<LanManager.CommunicabilityMinGoodResults>
+		<value>5</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.CommunicabilityMinGoodResults>
+	<LOG.Store.EventExcludeFilter>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LOG.Store.EventExcludeFilter>
+	<Server.Jms.URL>
+		<value>http://[2016:aa36:b2ff:0:d8e5:8648:921f:e38c]:8084/jmsa_fe/queue/</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Jms.URL>
+	<Server.Jms.Queue.PlcLanManager.EventExcludeFilter>
+		<value />
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.PlcLanManager.EventExcludeFilter>
+	<Server.CMP.URL.Factory>
+		<value>http://172.30.12.19:8091/ejbca/publicweb/cmp/LuxCMPTLS</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.CMP.URL.Factory>
+	<LanManager.DLMSOverPLCInactivityWatchdogTimeout>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.DLMSOverPLCInactivityWatchdogTimeout>
+	<Server.Presence.URL>
+		<value>http://[2016:aa36:b2ff:0:d8e5:8648:921f:e38c]:8083/presence_fe/ConPres</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Presence.URL>
+	<Server.ILOC.Subnet>
+		<value>255.255.255.0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.Subnet>
+	<Server.IPv6RangeAllowed>
+		<value>ACCEPT_ALL</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.IPv6RangeAllowed>
+	<Server.WANBackup.Enable>
+		<value>FALSE</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WANBackup.Enable>
+	<Scheduler.firmwareHistoryDepth>
+		<value>12</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Scheduler.firmwareHistoryDepth>
+	<Server.WAN2.AuthType>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.AuthType>
+	<Server.WAN1.6rdPrefix>
+		<value>2002::/16</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.6rdPrefix>
+	<JMS.CheckMeterReq.Period>
+		<value>120</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</JMS.CheckMeterReq.Period>
+	<LanManager.PlcG3Adp.Adp_Broadcast_Log_Table_Entry_TTL>
+		<value>2</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Broadcast_Log_Table_Entry_TTL>
+	<LanManager.IP.RouterAdvertisementPeriod>
+		<value>1800</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.IP.RouterAdvertisementPeriod>
+	<LanManager.AutomaticMeterActivation>
+		<value>TRUE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.AutomaticMeterActivation>
+	<Server.WAN1.Password>
+		<value>internet</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.Password>
+	<Scheduler.result.version>
+		<value>6</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Scheduler.result.version>
+	<Server.Config.FirmwareUpgradeFromServer>
+		<value>TRUE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Config.FirmwareUpgradeFromServer>
+	<LanManager.PlcG3Adp.Adp_RREQ_Retries>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_RREQ_Retries>
+	<Server.Jms.MaxBurstSize>
+		<value>200</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Jms.MaxBurstSize>
+	<LanManager.Hybrid.PowerDBm>
+		<value>0x2d</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.PowerDBm>
+	<LanManager.PlcG3Mac.Zeno.FCC.LineDriverGain>
+		<value>18</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Zeno.FCC.LineDriverGain>
+	<LanManager.PlcG3Adp.Adp_Security_Level>
+		<value>5</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Security_Level>
+	<LanManager.PlcG3Mac.Mac_K>
+		<value>5</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_K>
+	<LanManager.Hybrid.PktEnInterleaving>
+		<value>1</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.PktEnInterleaving>
+	<Server.NTP.InitialConnectionPeriod>
+		<value>600</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.NTP.InitialConnectionPeriod>
+	<LanManager.PlcG3Mac.Mac_A>
+		<value>8</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_A>
+	<LanManager.PlcG3Adp.Adp_Low_LQI_Value>
+		<value>36</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Low_LQI_Value>
+	<Server.WANInterface>
+		<value>2</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WANInterface>
+	<Server.WAN1.AccessTechnologiesPolicy>
+		<value>ROUND_ROBIN</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.AccessTechnologiesPolicy>
+	<General.Alarm.Meter.Ack>
+		<value>CLEAR</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</General.Alarm.Meter.Ack>
+	<Server.WAN1.IP>
+		<value>197.20.255.120</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.IP>
+	<Server.WAN1.Gateway>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.Gateway>
+	<Server.Jms.Queue.PlcLanManager.Out>
+		<value>LANMANAGER_FROMGATEWAY</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.PlcLanManager.Out>
+	<Server.CMP.DLMS.Issuer.CN>
+		<value>LM_DLMS_COM_CA</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.CMP.DLMS.Issuer.CN>
+	<LanManager.COSEMScheduler.ComTimeoutMarginPercentage>
+		<value>100</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.ComTimeoutMarginPercentage>
+	<LanManager.PlcG3Adp.Adp_RREQ_RERR_Wait>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_RREQ_RERR_Wait>
+	<Server.WAN2.6rdPrefix>
+		<value>2002::/16</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.6rdPrefix>
+	<Server.WAN1.StatSamplePeriod>
+		<value>10</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.StatSamplePeriod>
+	<General.Hardware.Type>
+		<value>xp6000-4</value>
+		<scope />
+		<access>READ_ONLY</access>
+	</General.Hardware.Type>
+	<Server.WAN2.Password>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.Password>
+	<Server.WAN1.Radio.Bands>
+		<value>ALL</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.Radio.Bands>
+	<WebGUI.ClientAuth.HTTPS>
+		<value>TRUE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_ONLY</access>
+	</WebGUI.ClientAuth.HTTPS>
+	<Server.WAN1.MTU>
+		<value>1500</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.MTU>
+	<LanManager.PlcG3Mac.Mac_MaxFrameRetries_RF>
+		<value>5</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_MaxFrameRetries_RF>
+	<LanManager.COSEMScheduler.RequestSlicing>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.RequestSlicing>
+	<LanManager.PlcG3Mac.Mac_Broadcast_Max_CW_Enabled>
+		<value>TRUE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Broadcast_Max_CW_Enabled>
+	<LanManager.PlcG3Mac.Mac_Max_BE>
+		<value>8</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Max_BE>
+	<Date.SynchronizationEnabled>
+		<value>TRUE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.SynchronizationEnabled>
+	<Server.Timeout>
+		<value>60</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Timeout>
+	<Server.Config.BaseAddress.URL>
+		<value>http://[2016:aa36:b2ff:0:d8e5:8648:921f:e38c]:80</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Config.BaseAddress.URL>
+	<LanManager.COSEMScheduler.SelectiveCollect.DisableAlarms>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.SelectiveCollect.DisableAlarms>
+	<LanManager.IP.PanPrefix>
+		<value>2001:0db8:0:0::/64</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.IP.PanPrefix>
+	<Server.WAN1.6rdGateway>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.6rdGateway>
+	<LanManager.PlcG3Mac.Mac_Coherent_Transmission>
+		<value>0</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Coherent_Transmission>
+	<Server.WAN1.StatHistory>
+		<value>7</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.StatHistory>
+	<LanManager.MaxAllowedConsecutiveResets>
+		<value>20</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.MaxAllowedConsecutiveResets>
+	<LanManager.NeighbourLossNumChecks>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.NeighbourLossNumChecks>
+	<Server.Jms.Queue.DcManager.Out>
+		<value>DCMANAGER_FROMGATEWAY</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.DcManager.Out>
+	<LanManager.MaxDelayBeforeInterruption>
+		<value>-1</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.MaxDelayBeforeInterruption>
+	<Server.Jms.Queue.DcManager.In>
+		<value>DCMANAGER_TOGATEWAY</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.Queue.DcManager.In>
+	<Server.WAN1.IPMode>
+		<value>2</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.IPMode>
+	<LanManager.Hybrid.PktEnWhitening>
+		<value>1</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.PktEnWhitening>
+	<JMS.TTL.GKReq_retransmission_period>
+		<value>3600</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</JMS.TTL.GKReq_retransmission_period>
+	<WebGUI.CRL.Download.Period>
+		<value>21600</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</WebGUI.CRL.Download.Period>
+	<Server.Jms.cat1.deliveryDelay>
+		<value>5</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.cat1.deliveryDelay>
+	<Server.Config.FirmwareDownloadRetryPeriod>
+		<value>600</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Config.FirmwareDownloadRetryPeriod>
+	<Server.WAN1.DNS2>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.DNS2>
+	<JMS.TTL.PSKReq_retransmission_period>
+		<value>3600</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</JMS.TTL.PSKReq_retransmission_period>
+	<Server.WAN1.DNS1>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.DNS1>
+	<LanManager.BGTK_Period>
+		<value>30</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.BGTK_Period>
+	<LanManager.Phase_Injection_3>
+		<value>TRUE</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Phase_Injection_3>
+	<Server.CMP.URL.DLMS.Suite2>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.CMP.URL.DLMS.Suite2>
+	<Server.Config.MinTimeBetweenWakeups>
+		<value>60</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.Config.MinTimeBetweenWakeups>
+	<LanManager.Phase_Injection_2>
+		<value>TRUE</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Phase_Injection_2>
+	<Server.CMP.URL.DLMS.Suite1>
+		<value>http://172.30.12.19:8081/ejbca/publicweb/cmp/LuxCMPDLMS</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.CMP.URL.DLMS.Suite1>
+	<LanManager.Phase_Injection_1>
+		<value>TRUE</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Phase_Injection_1>
+	<LanManager.PlcG3Mac.Mac_Max_Frame_Retries>
+		<value>5</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Max_Frame_Retries>
+	<LanManager.Current_State_Alarms_Enabled>
+		<value>true</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.Current_State_Alarms_Enabled>
+	<Server.Jms.ConnectionPeriod>
+		<value>7200</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.ConnectionPeriod>
+	<LanManager.PlcG3Mac.Mac_Beacon_Randomization_Window_Length>
+		<value>12</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Beacon_Randomization_Window_Length>
+	<LanManager.PlcG3.RF_RSSINoiseInterval>
+		<value>300</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3.RF_RSSINoiseInterval>
+	<LanManager.PlcG3Adp.Adp_Path_Discovery_Time>
+		<value>40</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Path_Discovery_Time>
+	<Scheduler.plcFirmwareTimeBetweenDownloadRetry>
+		<value>600</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Scheduler.plcFirmwareTimeBetweenDownloadRetry>
+	<General.WatchdogDuration>
+		<value>60</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</General.WatchdogDuration>
+	<LanManager.PlcG3Adp.Adp_RREP_Wait>
+		<value>4</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_RREP_Wait>
+	<Date.DeviationOver>
+		<value>300</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Date.DeviationOver>
+	<LanManager.MetroEventPollingPeriod>
+		<value>180</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.MetroEventPollingPeriod>
+	<LanManager.EnablePeriodicTasks>
+		<value>TRUE</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.EnablePeriodicTasks>
+	<General.Mac.Plc>
+		<value>36DB:9CFF:FE9F:F1FA</value>
+		<scope />
+		<access>READ_ONLY</access>
+	</General.Mac.Plc>
+	<LanManager.PLCInactivityWatchdogTimeout>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PLCInactivityWatchdogTimeout>
+	<Server.WAN2.IP>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN2.IP>
+	<Server.WAN1.MRU>
+		<value>1500</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.WAN1.MRU>
+	<LanManager.PlcG3Mac.Mac_DutyCycleLimit_RF>
+		<value>90</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_DutyCycleLimit_RF>
+	<LanManager.HDLCInactivityWatchdogTimeout>
+		<value>0</value>
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LanManager.HDLCInactivityWatchdogTimeout>
+	<LanManager.BGTK_Available_State_Validity_Duration>
+		<value>21600</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.BGTK_Available_State_Validity_Duration>
+	<LanManager.PlcG3Mac.Mac_Min_CW_Attempts>
+		<value>10</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Min_CW_Attempts>
+	<Server.ILOC.Gateway>
+		<value />
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.ILOC.Gateway>
+	<LanManager.PlcG3Adp.Adp_Net_Traversal_Time>
+		<value>20</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Net_Traversal_Time>
+	<LanManager.BGTK_Enabled>
+		<value>TRUE</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.BGTK_Enabled>
+	<LanManager.PlcG3Adp.Adp_Krt_RF>
+		<value>0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Adp.Adp_Krt_RF>
+	<LanManager.COSEMScheduler.NumberOfParallelizableRequests>
+		<value>1</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.COSEMScheduler.NumberOfParallelizableRequests>
+	<LanManager.Hybrid.RadioBaseFreq>
+		<value>0x339e1c80</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.RadioBaseFreq>
+	<LanManager.IP.PrefixFromIpv4>
+		<value>2002::/16</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.IP.PrefixFromIpv4>
+	<Server.Jms.QueueDepth>
+		<value>10000</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.QueueDepth>
+	<LanManager.PlcG3Mac.Mac_Neighbour_Table_Entry_TTL>
+		<value>255</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</LanManager.PlcG3Mac.Mac_Neighbour_Table_Entry_TTL>
+	<Server.NTP.URL>
+		<value>2016:aa36:b2ff:0:d8e5:8648:921f:e38c</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</Server.NTP.URL>
+	<LanManager.Hybrid.RadioBandWidth>
+		<value>0x000186a0</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.RadioBandWidth>
+	<LOG.SecureLogs>
+		<value />
+		<scope>HIDDEN</scope>
+		<access>READ_WRITE</access>
+	</LOG.SecureLogs>
+	<LanManager.Hybrid.RadioDataRate>
+		<value>0x0000c350</value>
+		<scope>WEBGUI</scope>
+		<access>READ_WRITE</access>
+	</LanManager.Hybrid.RadioDataRate>
+	<Server.Jms.ttl>
+		<value>259200</value>
+		<scope />
+		<access>READ_WRITE</access>
+	</Server.Jms.ttl>
+</config>

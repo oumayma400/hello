@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<MeterAssetDeleteRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterDelete</noun>
+		<dateTime>2019-10-02T14:49:23+06:00</dateTime>
+		<source>ELLEVIO</source>
+		<messageID>Delete89566555855</messageID>
+	</header>
+	<payload>
+		<meterAsset>
+			<mRID>80043700621613125383363500151423</mRID>
+			<idType>METER_X_UDC_ASSET_ID</idType>
+			<modelNumber>UAA EIP</modelNumber>
+			<serialNumber>XYZ</serialNumber>
+			<serviceType>ELECTRIC</serviceType>
+		</meterAsset>
+		<comFunction>
+			<mRID>COM-BMA_X_DCT-13000053</mRID>
+			<idType>METER_COMMUNICATION_MODULE_X_UDC_ASSET_ID</idType>
+		</comFunction>
+		<serviceDeliveryPoint>
+			<mRID>BMA_X_DCT-13000053</mRID>
+			<idType>SDP_X_UDC_ASSET_ID</idType>
+			<pathName>ELLEVIO</pathName>
+			<serviceType>MAP-SMR</serviceType>
+			<lifeSupport>false</lifeSupport>
+			<locationCode>DefaultLocationCode</locationCode>
+			<serviceDeliveryRemarks>SDP</serviceDeliveryRemarks>
+			<latitude>37.571603</latitude>
+			<longitude>-122.267501</longitude>
+			<locationAccuracy>5.25</locationAccuracy>
+		</serviceDeliveryPoint>
+		<serviceLocation>
+			<mRID>PRMS-FLEX-000001</mRID>
+			<idType>PREMISE_X_CLIENT_PRMSE_ID</idType>
+			<pathName>ELLEVIO</pathName>
+			<addressGeneral>Address_line_1</addressGeneral>
+			<addressGeneral2>E Third Ave</addressGeneral2>
+			<city>Hasselt</city>
+			<stateOrProvince>Limburg</stateOrProvince>
+			<country>Sweden</country>
+			<postalCode>3500</postalCode>
+			<latitude>37.571603</latitude>
+			<longitude>-122.267501</longitude>
+		</serviceLocation>
+		<customerAccount>
+			<mRID>DCT-13000053</mRID>
+			<idType>ACCOUNT_X_UDC_ID</idType>
+			<pathName>ELLEVIO</pathName>
+			<billingCycle>DefaultBillingCycle</billingCycle>
+		</customerAccount>
+		<executeStartTime>2019-10-02T14:49:23+06:00</executeStartTime>
+		<executeExpireTime>2019-10-02T22:49:23+06:00</executeExpireTime>
+	</payload>
+</MeterAssetDeleteRequestMessage>

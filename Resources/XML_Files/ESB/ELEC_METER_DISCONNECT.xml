@@ -1,0 +1,25 @@
+<ami:MeterAssetDisconnectRequestMessage
+	xmlns:ami="http://www.emeter.com/energyip/amiinterface">
+	<ami:header>
+		<ami:verb>request</ami:verb>
+		<ami:noun>MeterDisconnect</ami:noun>
+		<ami:revision>1</ami:revision>
+		<ami:dateTime>2018-07-19T07:03:08.106Z</ami:dateTime>
+		<ami:source>FLUVIUS</ami:source>
+		<ami:messageID>202007201633</ami:messageID>
+		<ami:utilityId>FLUVIUS</ami:utilityId>
+	</ami:header>
+	<ami:payload>
+		<ami:meterAsset>
+			<ami:mRID>1SAG3100009617</ami:mRID>
+			<ami:idType>METER_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:modelNumber>DIG E-METER 2DR 230V 5(60)A</ami:modelNumber>
+			<ami:serialNumber>XYZ</ami:serialNumber>
+			<ami:numDigits>6</ami:numDigits>
+		</ami:meterAsset>
+		<ami:requestPriority>1</ami:requestPriority>
+		<ami:executeStartTime>2020-07-20T17:08:08</ami:executeStartTime>
+		<ami:executeExpireTime>2020-07-20T18:09:08</ami:executeExpireTime>
+	</ami:payload>
+</ami:MeterAssetDisconnectRequestMessage>

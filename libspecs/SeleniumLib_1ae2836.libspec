@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-11T08:00:15Z" lineno="1" name="SeleniumLib" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\SELENIUM_Libraries\SeleniumLib.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``SeleniumLib``.</doc>
+<kw lineno="141" name="Approve Batch">
+<arguments>
+<arg>driver</arg>
+<arg>batch_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="409" name="Check Cep Event">
+<arguments>
+<arg>driver</arg>
+<arg>meter_id</arg>
+<arg>event_type</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="307" name="Check Config Paramete Gui Updated">
+<arguments>
+<arg>driver</arg>
+<arg>param: list</arg>
+<arg>value: list</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="339" name="Check Config Paramete Gui Updated Hes1 6">
+<arguments>
+<arg>PROJECT</arg>
+<arg>driver</arg>
+<arg>param: list</arg>
+<arg>value: list</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="395" name="Check Meter Status Gui Updated">
+<arguments>
+<arg>driver</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="285" name="Close Driver">
+<arguments>
+<arg>driver</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="297" name="Get Total Meters">
+<arguments>
+<arg>driver</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="101" name="Go To Link">
+<arguments>
+<arg>driver</arg>
+<arg>url</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="97" name="Go To Meter Details">
+<arguments>
+<arg>driver</arg>
+<arg>url</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="264" name="Import New Dc Ssf">
+<arguments>
+<arg>driver</arg>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="243" name="Import New Ssf">
+<arguments>
+<arg>driver</arg>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="57" name="Init Driver">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="91" name="Login Gui">
+<arguments>
+<arg>driver</arg>
+<arg>url</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="289" name="Logout">
+<arguments>
+<arg>driver</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="80" name="Open Gui">
+<arguments>
+<arg>driver</arg>
+<arg>url</arg>
+<arg>user</arg>
+<arg>password</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="191" name="Provisionne Batch">
+<arguments>
+<arg>driver</arg>
+<arg>batch_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="166" name="Reject Batch">
+<arguments>
+<arg>driver</arg>
+<arg>batch_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="104" name="Remove To Qa">
+<arguments>
+<arg>driver</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="218" name="Scrap Meter">
+<arguments>
+<arg>driver</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="589" name="Search Cep Event By Event Id">
+<arguments>
+<arg>driver</arg>
+<arg>event_id</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="117" name="Send For Repair">
+<arguments>
+<arg>driver</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="464" name="Validate Shipment Parameters Odm Gui">
+<arguments>
+<arg>driver</arg>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+<arg>params</arg>
+<arg>device_type</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="542" name="Validate Shipment Parameters Oem Gui">
+<arguments>
+<arg>driver</arg>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+<arg>params</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

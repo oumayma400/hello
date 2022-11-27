@@ -1,0 +1,20 @@
+<GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header>
+		<tns:verb>request</tns:verb>
+		<tns:noun>GetDeviceConfiguration</tns:noun>
+		<tns:revision>1</tns:revision>
+		<tns:dateTime>2022-04-12T20:00:23-05:00</tns:dateTime>
+		<tns:source>MDMS</tns:source>
+		<tns:messageID>test_mo236542g654</tns:messageID>
+	</header>
+	<payload>
+		<priority>3</priority>
+		<deviceId>
+			<tns:mRID>80043700621611125392485321770004</tns:mRID>
+			<tns:idType>METER_X_ELECTRONIC_ID</tns:idType>
+		</deviceId>
+		<requestedProfiles>
+			<type>MCC12</type>
+		</requestedProfiles>
+	</payload>
+</GetDeviceConfigurationRequestMessage>

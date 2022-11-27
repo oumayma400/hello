@@ -1,0 +1,27 @@
+<?xml version="1.0"  standalone="yes"?>
+<MeterReadsRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterReads</noun>
+		<revision>1</revision>
+		<dateTime>2021-10-29T16:24:16.204+02:00</dateTime>
+		<source>EIP</source>
+		<messageID>505</messageID>
+	</header>
+	<payload>
+		<Meter>
+			<mRID>SAG1030520045077</mRID>
+			<idType>METER_X_ELECTRONIC_ID</idType>
+			<parameter>
+				<name>profileName</name>
+				<value>ODR_Instant_Q_Export_Tariff</value>
+			</parameter>
+		</Meter>
+		<retrieveRegisterReads>false</retrieveRegisterReads>
+		<retrieveIntervalReads>false</retrieveIntervalReads>
+		<retrieveEvents>false</retrieveEvents>
+		<executeStartTime>2021-10-29T16:22:57.000+02:00</executeStartTime>
+		<executeExpireTime>2030-10-29T20:52:57.000+02:00</executeExpireTime>
+	</payload>
+</MeterReadsRequestMessage>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.7.0 on win32)" generated="20220415 12:31:06.299" rpa="false">
+<suite id="s1" name="ESB" source="C:\Users\G551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Test_Suite\ESB.robot">
+<test id="s1-t1" name="SOLESB-5379">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>MCC11</arg>
+</arguments>
+<assign>
+<var>${value}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.929" level="INFO">${value} = MCC11</msg>
+<status status="PASS" starttime="20220415 12:31:17.927" endtime="20220415 12:31:17.929"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>ESB</arg>
+</arguments>
+<assign>
+<var>${project}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.932" level="INFO">${project} = ESB</msg>
+<status status="PASS" starttime="20220415 12:31:17.931" endtime="20220415 12:31:17.932"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>MDMS_HES_CONFIG_QUEUE</arg>
+</arguments>
+<assign>
+<var>${RequestQueue}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.936" level="INFO">${RequestQueue} = MDMS_HES_CONFIG_QUEUE</msg>
+<status status="PASS" starttime="20220415 12:31:17.935" endtime="20220415 12:31:17.936"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>HES_MDMS_CONFIG_REPLY_QUEUE</arg>
+</arguments>
+<assign>
+<var>${ResponseQueue}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.941" level="INFO">${ResponseQueue} = HES_MDMS_CONFIG_REPLY_QUEUE</msg>
+<status status="PASS" starttime="20220415 12:31:17.939" endtime="20220415 12:31:17.942"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>800437006216111392485321770126</arg>
+</arguments>
+<assign>
+<var>${meterID}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.946" level="INFO">${meterID} = 800437006216111392485321770126</msg>
+<status status="PASS" starttime="20220415 12:31:17.945" endtime="20220415 12:31:17.946"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>payload/requestedProfiles/type</arg>
+</arguments>
+<assign>
+<var>${path}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.949" level="INFO">${path} = payload/requestedProfiles/type</msg>
+<status status="PASS" starttime="20220415 12:31:17.948" endtime="20220415 12:31:17.949"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>TEST STARTED</arg>
+</arguments>
+<msg timestamp="20220415 12:31:17.953" level="INFO">TEST STARTED</msg>
+<status status="PASS" starttime="20220415 12:31:17.951" endtime="20220415 12:31:17.953"></status>
+</kw>
+<kw name="Prepare_Inject_Consume_Message" library="StandardKeywords">
+<arguments>
+<arg>${project}</arg>
+<arg>${RequestQueue}</arg>
+<arg>${meterID}</arg>
+<arg>ADM_GET_DEVICE_CONFIGURATION</arg>
+<arg>${path}</arg>
+<arg>${value}</arg>
+</arguments>
+<assign>
+<var>${correlationID}</var>
+</assign>
+<kw name="GET_XML_REQUEST" library="UAA_Requests">
+<arguments>
+<arg>${project}</arg>
+<arg>${file_name}</arg>
+</arguments>
+<assign>
+<var>${xml}</var>
+</assign>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>../Resources/XML_Files/${plateforme}/${file_name}.xml</arg>
+</arguments>
+<assign>
+<var>${TextFileContent}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.968" level="INFO" html="yes">Getting file '&lt;a href="file://C:\Users\G551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Resources\XML_Files\ESB\ADM_GET_DEVICE_CONFIGURATION.xml"&gt;C:\Users\G551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Resources\XML_Files\ESB\ADM_GET_DEVICE_CONFIGURATION.xml&lt;/a&gt;'.</msg>
+<msg timestamp="20220415 12:31:17.971" level="INFO">${TextFileContent} = &lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instan...</msg>
+<status status="PASS" starttime="20220415 12:31:17.967" endtime="20220415 12:31:17.971"></status>
+</kw>
+<msg timestamp="20220415 12:31:17.973" level="INFO">${xml} = &lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instan...</msg>
+<status status="PASS" starttime="20220415 12:31:17.964" endtime="20220415 12:31:17.973"></status>
+</kw>
+<kw name="DCT without params to inject" library="XML_Preparation">
+<doc>TBD</doc>
+<arguments>
+<arg>${xml}</arg>
+<arg>${meterID}</arg>
+<arg>${path}</arg>
+<arg>${value}</arg>
+</arguments>
+<assign>
+<var>${preparedXML}</var>
+<var>${correlationID}</var>
+</assign>
+<kw name="Default Preparation EVN" library="XML_Preparation_Library">
+<arguments>
+<arg>${meterID}</arg>
+<arg>${xml}</arg>
+</arguments>
+<assign>
+<var>${XML}</var>
+<var>${correlationID}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.980" level="INFO">&lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;header&gt;
+		&lt;tns:verb&gt;request&lt;/tns:verb&gt;
+		&lt;tns:noun&gt;GetDeviceConfiguration&lt;/tns:noun&gt;
+		&lt;tns:revision&gt;1&lt;/tns:revision&gt;
+		&lt;tns:dateTime&gt;2022-04-12T20:00:23-05:00&lt;/tns:dateTime&gt;
+		&lt;tns:source&gt;MDMS&lt;/tns:source&gt;
+		&lt;tns:messageID&gt;test_mo236542g654&lt;/tns:messageID&gt;
+	&lt;/header&gt;
+	&lt;payload&gt;
+		&lt;priority&gt;3&lt;/priority&gt;
+		&lt;deviceId&gt;
+			&lt;tns:mRID&gt;80043700621611125392485321770004&lt;/tns:mRID&gt;
+			&lt;tns:idType&gt;METER_X_ELECTRONIC_ID&lt;/tns:idType&gt;
+		&lt;/deviceId&gt;
+		&lt;requestedProfiles&gt;
+			&lt;type&gt;MCC12&lt;/type&gt;
+		&lt;/requestedProfiles&gt;
+	&lt;/payload&gt;
+&lt;/GetDeviceConfigurationRequestMessage&gt;
+noun GetDeviceConfiguration
+messageID test_mo236542g654
+mrid 80043700621611125392485321770004
+messageID GetDeviceConfiguration_2022-04-15T12:31:17.979276_90108
+b'&lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;\n\t&lt;header&gt;\n\t\t&lt;tns:verb&gt;request&lt;/tns:verb&gt;\n\t\t&lt;tns:noun&gt;GetDeviceConfiguration&lt;/tns:noun&gt;\n\t\t&lt;tns:revision&gt;1&lt;/tns:revision&gt;\n\t\t&lt;tns:dateTime&gt;2022-04-15T12:31:17.980273&lt;/tns:dateTime&gt;\n\t\t&lt;tns:source&gt;MDMS&lt;/tns:source&gt;\n\t\t&lt;tns:messageID&gt;GetDeviceConfiguration_2022-04-15T12:31:17.979276_90108&lt;/tns:messageID&gt;\n\t&lt;/header&gt;\n\t&lt;payload&gt;\n\t\t&lt;priority&gt;3&lt;/priority&gt;\n\t\t&lt;deviceId&gt;\n\t\t\t&lt;tns:mRID&gt;800437006216111392485321770126&lt;/tns:mRID&gt;\n\t\t\t&lt;tns:idType&gt;METER_X_ELECTRONIC_ID&lt;/tns:idType&gt;\n\t\t&lt;/deviceId&gt;\n\t\t&lt;requestedProfiles&gt;\n\t\t\t&lt;type&gt;MCC12&lt;/type&gt;\n\t\t&lt;/requestedProfiles&gt;\n\t&lt;/payload&gt;\n&lt;/GetDeviceConfigurationRequestMessage&gt;\n'</msg>
+<msg timestamp="20220415 12:31:17.981" level="INFO">${XML} = &lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instan...</msg>
+<msg timestamp="20220415 12:31:17.982" level="INFO">${correlationID} = GetDeviceConfiguration_2022-04-15T12:31:17.979276_90108</msg>
+<status status="PASS" starttime="20220415 12:31:17.977" endtime="20220415 12:31:17.982"></status>
+</kw>
+<kw name="Update Value By Path" library="XML_Preparation_Library">
+<arguments>
+<arg>${path}</arg>
+<arg>${value}</arg>
+<arg>${XML}</arg>
+</arguments>
+<assign>
+<var>${XML}</var>
+</assign>
+<msg timestamp="20220415 12:31:17.987" level="INFO">${XML} = &lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instan...</msg>
+<status status="PASS" starttime="20220415 12:31:17.983" endtime="20220415 12:31:17.988"></status>
+</kw>
+<msg timestamp="20220415 12:31:17.989" level="INFO">${preparedXML} = &lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instan...</msg>
+<msg timestamp="20220415 12:31:17.990" level="INFO">${correlationID} = GetDeviceConfiguration_2022-04-15T12:31:17.979276_90108</msg>
+<status status="PASS" starttime="20220415 12:31:17.974" endtime="20220415 12:31:17.990"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${preparedXML}</arg>
+</arguments>
+<msg timestamp="20220415 12:31:17.993" level="INFO">&lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;header&gt;
+		&lt;tns:verb&gt;request&lt;/tns:verb&gt;
+		&lt;tns:noun&gt;GetDeviceConfiguration&lt;/tns:noun&gt;
+		&lt;tns:revision&gt;1&lt;/tns:revision&gt;
+		&lt;tns:dateTime&gt;2022-04-15T12:31:17.980273&lt;/tns:dateTime&gt;
+		&lt;tns:source&gt;MDMS&lt;/tns:source&gt;
+		&lt;tns:messageID&gt;GetDeviceConfiguration_2022-04-15T12:31:17.979276_90108&lt;/tns:messageID&gt;
+	&lt;/header&gt;
+	&lt;payload&gt;
+		&lt;priority&gt;3&lt;/priority&gt;
+		&lt;deviceId&gt;
+			&lt;tns:mRID&gt;800437006216111392485321770126&lt;/tns:mRID&gt;
+			&lt;tns:idType&gt;METER_X_ELECTRONIC_ID&lt;/tns:idType&gt;
+		&lt;/deviceId&gt;
+		&lt;requestedProfiles&gt;
+			&lt;type&gt;MCC11&lt;/type&gt;
+		&lt;/requestedProfiles&gt;
+	&lt;/payload&gt;
+&lt;/GetDeviceConfigurationRequestMessage&gt;
+</msg>
+<status status="PASS" starttime="20220415 12:31:17.991" endtime="20220415 12:31:17.993"></status>
+</kw>
+<kw name="Inject into AMQ on Queue" library="AMQ_North_Interface">
+<doc>Inject XML on MDMS_HES_CONFIG_QUEUE queue</doc>
+<arguments>
+<arg>${RequestQueue}</arg>
+<arg>${preparedXML}</arg>
+</arguments>
+<kw name="Inject" library="AMQ_Library">
+<doc>Inject message into ActiveMQ</doc>
+<arguments>
+<arg>${XML}</arg>
+<arg>${queue}</arg>
+<arg>${host}</arg>
+<arg>${port}</arg>
+<arg>${AMQUser}</arg>
+<arg>${AMQPass}</arg>
+</arguments>
+<msg timestamp="20220415 12:31:17.998" level="INFO">attempt reconnection (True, None, 0)</msg>
+<msg timestamp="20220415 12:31:17.999" level="INFO">Attempting connection to host 172.31.12.72, port 61613</msg>
+<msg timestamp="20220415 12:31:18.071" level="INFO">Established connection to host 172.31.12.72, port 61613</msg>
+<msg timestamp="20220415 12:31:18.074" level="INFO">Created thread &lt;Thread(Thread-1, started daemon 23860)&gt; using func &lt;function default_create_thread at 0x0000020F5A0A56A8&gt;</msg>
+<msg timestamp="20220415 12:31:18.075" level="INFO">Sending frame: 'STOMP'</msg>
+<msg timestamp="20220415 12:31:18.143" level="INFO">le message a aenvoyer vers activemq 
+&lt;GetDeviceConfigurationRequestMessage xmlns="http://www.emeter.com/energyip/amiinterface/dcf" xmlns:tns="http://www.emeter.com/energyip/amiinterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;header&gt;
+		&lt;tns:verb&gt;request&lt;/tns:verb&gt;
+		&lt;tns:noun&gt;GetDeviceConfiguration&lt;/tns:noun&gt;
+		&lt;tns:revision&gt;1&lt;/tns:revision&gt;
+		&lt;tns:dateTime&gt;2022-04-15T12:31:17.980273&lt;/tns:dateTime&gt;
+		&lt;tns:source&gt;MDMS&lt;/tns:source&gt;
+		&lt;tns:messageID&gt;GetDeviceConfiguration_2022-04-15T12:31:17.979276_90108&lt;/tns:messageID&gt;
+	&lt;/header&gt;
+	&lt;payload&gt;
+		&lt;priority&gt;3&lt;/priority&gt;
+		&lt;deviceId&gt;
+			&lt;tns:mRID&gt;800437006216111392485321770126&lt;/tns:mRID&gt;
+			&lt;tns:idType&gt;METER_X_ELECTRONIC_ID&lt;/tns:idType&gt;
+		&lt;/deviceId&gt;
+		&lt;requestedProfiles&gt;
+			&lt;type&gt;MCC11&lt;/type&gt;
+		&lt;/requestedProfiles&gt;
+	&lt;/payload&gt;
+&lt;/GetDeviceConfigurationRequestMessage&gt;</msg>
+<msg timestamp="20220415 12:31:18.150" level="FAIL">ConnectFailedException</msg>
+<status status="FAIL" starttime="20220415 12:31:17.996" endtime="20220415 12:31:18.150"></status>
+</kw>
+<status status="FAIL" starttime="20220415 12:31:17.994" endtime="20220415 12:31:18.151"></status>
+</kw>
+<status status="FAIL" starttime="20220415 12:31:17.961" endtime="20220415 12:31:18.151"></status>
+</kw>
+<doc>ADM_Get_Device_Configuration_MCC12</doc>
+<tags>
+<tag>MCC11</tag>
+<tag>sanity</tag>
+</tags>
+<status status="FAIL" starttime="20220415 12:31:17.920" endtime="20220415 12:31:18.153" critical="yes">ConnectFailedException</status>
+</test>
+<status status="FAIL" starttime="20220415 12:31:06.305" endtime="20220415 12:31:18.160"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">MCC11</stat>
+<stat pass="0" fail="1">sanity</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="ESB">ESB</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220415 12:31:17.813" level="ERROR">Error in file 'C:\Users\G551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Resources\Robot_Resources\StandardKeywords.robot' on line 27: Getting keyword names from library 'Remote' failed: Calling dynamic method 'get_keyword_names' failed: Connecting remote server at http://127.0.0.1:8270/ failed: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée</msg>
+</errors>
+</robot>

@@ -1,0 +1,27 @@
+<ami:MeterAssetConnectArmedRequestMessage
+	xmlns:ami="http://www.emeter.com/energyip/amiinterface">
+	<ami:header>
+		<ami:verb>request</ami:verb>
+		<ami:noun>MeterConnectArmed</ami:noun>
+		<ami:revision>1</ami:revision>
+		<ami:dateTime>2018-07-27T10:58:42.270+02:00</ami:dateTime>
+		<ami:source>FLUVIUS</ami:source>
+		<ami:messageID>202007281623</ami:messageID>
+		<ami:utilityId>FLUVIUS</ami:utilityId>
+	</ami:header>
+	<ami:payload>
+		<ami:meterAsset>
+			<ami:mRID>7MIT22000f00010</ami:mRID>
+			<ami:idType>METER_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:modelNumber>DIG G-METER G6 BALG QMAX10M³ 1PIJP</ami:modelNumber>
+			<ami:serialNumber>XYZ</ami:serialNumber>
+			<ami:serviceType>GAS</ami:serviceType>
+			<ami:gasMeter />
+			<ami:numDigits>6</ami:numDigits>
+		</ami:meterAsset>
+		<ami:requestPriority>1</ami:requestPriority>
+		<ami:executeStartTime>2020-07-28T17:10:44</ami:executeStartTime>
+		<ami:executeExpireTime>2018-07-28T08:58:42.000Z</ami:executeExpireTime>
+	</ami:payload>
+</ami:MeterAssetConnectArmedRequestMessage>

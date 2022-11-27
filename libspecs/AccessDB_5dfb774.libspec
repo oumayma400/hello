@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-12T10:26:32Z" lineno="1" name="AccessDB" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\DB_Libraries\AccessDB.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``AccessDB``.</doc>
+<kw lineno="1042" name="Change Meter Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db_name</arg>
+<arg>meter_id</arg>
+<arg>status</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="998" name="Check Activation">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>db_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="629" name="Check Collect In M2m By Taskid">
+<arguments>
+<arg>task_id</arg>
+<arg>period</arg>
+<arg>initial_meters_list</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1260" name="Check Dc Ssf Exist">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="635" name="Check Exixting Tasks In M2m">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="686" name="Check Exixting Tasks In Vsdc">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1278" name="Check M2m Dc Mapping">
+<arguments>
+<arg>PROJECT</arg>
+<arg>din</arg>
+<arg>ldn</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1219" name="Check Meter Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db_name</arg>
+<arg>meter_id</arg>
+<arg>target_status</arg>
+<arg>timeout</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="966" name="Check Rlc">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>db_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1252" name="Check Ssf Exist">
+<arguments>
+<arg>PROJECT</arg>
+<arg>odm_db_name</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="38" name="Check Task In Vsdc">
+<arguments>
+<arg>DB_HOST</arg>
+<arg>db</arg>
+<arg>database_name</arg>
+<arg>db_user</arg>
+<arg>db_pass</arg>
+<arg>filter</arg>
+<arg>db_name</arg>
+<arg>message</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="758" name="Check Task Mbus In M2m">
+<arguments>
+<arg>PROJECT</arg>
+<arg>amr_router</arg>
+<arg>channel</arg>
+<arg>energy_type</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="793" name="Check Task Mbus In Vsdc">
+<arguments>
+<arg>PROJECT</arg>
+<arg>amr_router</arg>
+<arg>channel</arg>
+<arg>energy_type</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1269" name="Check Vsdc Mapping">
+<arguments>
+<arg>PROJECT</arg>
+<arg>din</arg>
+<arg>ldn</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="350" name="Count Meters From Db">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1110" name="Date By Adding Business Days">
+<arguments>
+<arg>from_date</arg>
+<arg>add_days</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1077" name="Date By Adding Business Daysold">
+<arguments>
+<arg>from_date</arg>
+<arg>add_days</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1032" name="DB Param Validation">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db_name</arg>
+<arg>meter_id: str</arg>
+<arg>param_name: list</arg>
+<arg>param_value: list</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1059" name="Delete Meter From Metering Meter Db">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db_name</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="249" name="Delete Meters And SSF From Odm Db">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db</arg>
+<arg>ssf</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="114" name="Delete Request">
+<arguments>
+<arg>DB_HOST</arg>
+<arg>db</arg>
+<arg>database_name</arg>
+<arg>db_user</arg>
+<arg>db_pass</arg>
+<arg>db_name</arg>
+<arg>deleted_id</arg>
+<arg>cond</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="237" name="Delete SSF From Kms Db">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db</arg>
+<arg>ssf</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="215" name="Delete SSF Meters From Kms Db">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db</arg>
+<arg>schema</arg>
+<arg>tab</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="176" name="Delete SSF Meters From M2m Db">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db</arg>
+<arg>schema</arg>
+<arg>tab</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="196" name="Delete SSF Meters From Vsdc Db">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db</arg>
+<arg>schema</arg>
+<arg>tab</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="131" name="Extract Meters Id">
+<arguments>
+<arg>data</arg>
+<arg>filter</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="125" name="Extract Unique Value">
+<arguments>
+<arg>data</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="387" name="Get Db Campaign Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>odm_db</arg>
+<arg>table</arg>
+<arg>camp_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="302" name="Get Dc Ssf Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1145" name="Get Job Id From Cim">
+<arguments>
+<arg>PROJECT</arg>
+<arg>task_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="739" name="Get Mbus Channel">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="577" name="Get Meters In Collection">
+<arguments>
+<arg>PROJECT</arg>
+<arg>collect_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="140" name="Get Meters List">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="158" name="Get Meters List Fluvius">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1356" name="Get P2p Meter Connectivity">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_ldn</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="278" name="Get Ssf Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="326" name="Get Ssf Status Fluvius">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="85" name="HES Operation Duration">
+<arguments>
+<arg>message</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="95" name="Operation Retry Pause">
+<arguments>
+<arg>message</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="70" name="Select">
+<arguments>
+<arg>DB_HOST</arg>
+<arg>db</arg>
+<arg>database_name</arg>
+<arg>db_user</arg>
+<arg>db_pass</arg>
+<arg>filter</arg>
+<arg>db_name</arg>
+<arg>message</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="23" name="Select Request">
+<arguments>
+<arg>DB_HOST</arg>
+<arg>db</arg>
+<arg>database_name</arg>
+<arg>db_user</arg>
+<arg>db_pass</arg>
+<arg>filter</arg>
+<arg>db_name</arg>
+<arg>condition</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="55" name="Select Request Old">
+<arguments>
+<arg>DB_HOST</arg>
+<arg>db</arg>
+<arg>database_name</arg>
+<arg>db_user</arg>
+<arg>db_pass</arg>
+<arg>filter</arg>
+<arg>db_name</arg>
+<arg>condition</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="21" name="Test 00">
+<arguments>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1152" name="Validate ExecPriority And Reqenddate">
+<arguments>
+<arg>PROJECT</arg>
+<arg>request_type</arg>
+<arg>task_id</arg>
+<arg>expected_execPriority</arg>
+<arg>expected_recovery_execPriority</arg>
+<arg>shift</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1380" name="Validate ExecPriority And Reqenddate Per Minute">
+<arguments>
+<arg>PROJECT</arg>
+<arg>request_type</arg>
+<arg>task_id</arg>
+<arg>expected_execPriority</arg>
+<arg>expected_recovery_execPriority</arg>
+<arg>shift</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="367" name="Verify Campaign Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>odm_db</arg>
+<arg>table</arg>
+<arg>camp_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1309" name="Verify Config Upload Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>config_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1315" name="Verify Config Uploaded In Scape Prod">
+<arguments>
+<arg>PROJECT</arg>
+<arg>config_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1324" name="Verify Config Uploaded In Scape Qa">
+<arguments>
+<arg>PROJECT</arg>
+<arg>config_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1288" name="Verify Dc Update Campaign Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>table</arg>
+<arg>camp_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="413" name="Verify Delivery Param In M2m">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>data</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="844" name="Verify Delivery Param In M2mFLUVIES">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>data</arg>
+<arg>prefix</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="404" name="Verify Delivery Param In Odm">
+<arguments>
+<arg>PROJECT</arg>
+<arg>db_name</arg>
+<arg>meter_id</arg>
+<arg>data</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="471" name="Verify Delivery Param In VSDC P2P">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>data</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="524" name="Verify Delivery Param In VSDC PLC">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>data</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="898" name="Verify Delivery Param In VsdcFLUVIES">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>data</arg>
+<arg>prefix</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1350" name="Verify Firmware Upload Status">
+<arguments>
+<arg>PROJECT</arg>
+<arg>firmware_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1333" name="Verify Firmware Uploaded In Scape Prod">
+<arguments>
+<arg>PROJECT</arg>
+<arg>config_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1341" name="Verify Firmware Uploaded In Scape Qa">
+<arguments>
+<arg>PROJECT</arg>
+<arg>config_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="1366" name="Wait Meter To Be Communicating">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>timeout</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShipmentFile
+	xmlns="http://www.sagemcom.com/shipmentfile/fluvius-shipment-file-meter-elec-amm/2018-01"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	<Header>
+		<Security>
+			<SecurityKey_Siconia>
+				<xenc:EncryptedKey Id="SKGO">
+					<xenc:EncryptionMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+					<ds:KeyInfo>
+						<ds:RetrievalMethod URI="#PKGO"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue>GMUVkPK5NkCRnnarXTHPAKOpPkN14KiTPg/6fzLqfmbkubkS86HCr4X7zrvGSxlJhkN6SXrQu+ioLJZpBAr6k3jxxWW1vKRnmbChVwEuE+90uyTHC3TCKyYAxMrdh/Df1n4UE/mJeFyCsL+exS4tfMcZ24boAvWWO+Gfyk/QrOCbbvNtCve97bItIBLXQfIRYgrfi71zqIgZypQ49R1KXscX68Uut12nNcvpMUjBtxidtjl7PIdthHGVO9nW2Cf2/N0b42Qhb98kIcJCInuPAPh6oENAlHIza4jzqJ3hS2sFnqIlBJ171mMFtVbFExnqDCF+Hfz/vE/X/xMJo9Jxng==</xenc:CipherValue>
+					</xenc:CipherData>
+					<xenc:CarriedKeyName>SKGO</xenc:CarriedKeyName>
+				</xenc:EncryptedKey>
+			</SecurityKey_Siconia>
+		</Security>
+	</Header>
+	<Body>
+		<Shipment>
+			<Main>
+				<Company>Infrax</Company>
+				<Supplier>SAGEMCOM</Supplier>
+				<Public_key_Siconia>
+					<!--<ds:Modulus>ZGVmYXVsdA==</ds:Modulus> <ds:Exponent>ZGVmYXVsdA==</ds:Exponent> -->
+					<ds:KeyInfo>
+						<ds:RetrievalMethod URI="#PKGO"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+				</Public_key_Siconia>
+			</Main>
+			<Header>
+				<Delivery_Note_Number>BL10005120</Delivery_Note_Number>
+
+				<Device_type>S211-S1</Device_type>
+				<Configuration_version>253770234</Configuration_version>
+				<Shipment_date>20200603</Shipment_date>
+				<Order_id>orderID</Order_id>
+				<Order_position_id>OpID</Order_position_id>
+			</Header>
+			<Pallet>
+				<Pallet_id>P1</Pallet_id>
+
+				<Box>
+					<Box_id>Box1</Box_id>
+					<Device_attributes>
+						<General>
+							<Serial_number>1SAG1100009005</Serial_number>
+							<Customer_Article_Number>81210</Customer_Article_Number>
+							<Customer_Lot_Number>2</Customer_Lot_Number>
+							<Test_report>0000001987600195</Test_report>
+							<Certification_Year>2019</Certification_Year>
+							<Certification_Number_Report>18/180380ON</Certification_Number_Report>
+							<Device_batch_number>Lot_6137_0856</Device_batch_number>
+							<Communication_method>NB1</Communication_method>
+							<Year_of_manufactory>2019</Year_of_manufactory>
+							<Hardware_version>253770234</Hardware_version>
+							<Module_active_firmware_version>112.02</Module_active_firmware_version>
+							<Core_active_firmware_version>112.03</Core_active_firmware_version>
+						</General>
+						<MobileCommunicationAttributes>
+							<Simcard>
+								<Communication_provider>Tango</Communication_provider>
+								<Communication_provider_batch_id>09/11/2018 15:27</Communication_provider_batch_id>
+								<ICC_id>Icc ID</ICC_id>
+							</Simcard>
+							<IMSI>
+								<IMSI>001010123456789</IMSI>
+								<IMSI>001010123456789</IMSI>
+							</IMSI>
+							<Modem>
+								<IMEI>866425032873129</IMEI>
+								<Communication_module_id>MPA18K114000240</Communication_module_id>
+								<PPP_authentication_user>PPP auth 11111111</PPP_authentication_user>
+								<PPP_authentication_user>PPP auth 22222222</PPP_authentication_user>
+								<PPP_authentication_password>FrefrevuPUz3c2u</PPP_authentication_password>
+								<Hardware_version />
+								<Firmware_version />
+							</Modem>
+						</MobileCommunicationAttributes>
+						<DLMSAttributes>
+							<Equipment_identifier>SAG1030520009005</Equipment_identifier>
+							<HLS_active>4</HLS_active>
+							<Master_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Master_key>
+							<Global_encryption_unicast_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Global_encryption_unicast_key>
+							<Authentication_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Authentication_key>
+						</DLMSAttributes>
+					</Device_attributes>
+					<Device_attributes>
+						<General>
+							<Serial_number>1SAG1100009006</Serial_number>
+							<Customer_Article_Number>81210</Customer_Article_Number>
+							<Customer_Lot_Number>2</Customer_Lot_Number>
+							<Test_report>0000001987600195</Test_report>
+							<Certification_Year>2019</Certification_Year>
+							<Certification_Number_Report>18/180380ON</Certification_Number_Report>
+							<Device_batch_number>Lot_6137_0856</Device_batch_number>
+							<Communication_method>NB1</Communication_method>
+							<Year_of_manufactory>2019</Year_of_manufactory>
+							<Hardware_version>253770234</Hardware_version>
+							<Module_active_firmware_version>112.02</Module_active_firmware_version>
+							<Core_active_firmware_version>112.03</Core_active_firmware_version>
+						</General>
+						<MobileCommunicationAttributes>
+							<Simcard>
+								<Communication_provider>Tango</Communication_provider>
+								<Communication_provider_batch_id>09/11/2018 15:27</Communication_provider_batch_id>
+								<ICC_id>Icc ID</ICC_id>
+							</Simcard>
+							<IMSI>
+								<IMSI>001010123456789</IMSI>
+								<IMSI>001010123456789</IMSI>
+							</IMSI>
+							<Modem>
+								<IMEI>866425032873129</IMEI>
+								<Communication_module_id>MPA18K114000240</Communication_module_id>
+								<PPP_authentication_user>PPP auth 11111111</PPP_authentication_user>
+								<PPP_authentication_user>PPP auth 22222222</PPP_authentication_user>
+								<PPP_authentication_password>FrefrevuPUz3c2u</PPP_authentication_password>
+								<Hardware_version />
+								<Firmware_version />
+							</Modem>
+						</MobileCommunicationAttributes>
+						<DLMSAttributes>
+							<Equipment_identifier>SAG1030520009006</Equipment_identifier>
+							<HLS_active>4</HLS_active>
+							<Master_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Master_key>
+							<Global_encryption_unicast_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Global_encryption_unicast_key>
+							<Authentication_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Authentication_key>
+						</DLMSAttributes>
+					</Device_attributes>
+				</Box>
+
+
+			</Pallet>
+		</Shipment>
+	</Body>
+</ShipmentFile>

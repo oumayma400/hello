@@ -1,0 +1,67 @@
+<ami:MeterAssetUpdateRequestMessage
+	xmlns:ami="http://www.emeter.com/energyip/amiinterface">
+	<ami:header>
+		<ami:verb>request</ami:verb>
+		<ami:noun>MeterUpdate</ami:noun>
+		<ami:revision>1</ami:revision>
+		<ami:dateTime>2018-07-27T10:27:28.392+02:00</ami:dateTime>
+		<ami:source>ELLEVIO</ami:source>
+		<ami:messageID>120058</ami:messageID>
+		<ami:utilityId>ELLEVIO</ami:utilityId>
+	</ami:header>
+	<ami:payload>
+		<ami:meterAsset>
+			<ami:mRID>80043700621613125383363500000500</ami:mRID>
+			<ami:idType>METER_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+
+
+
+
+
+
+			<ami:modelNumber>DIG E-METER 2DR 230V 5(60)A</ami:modelNumber>
+			<ami:serialNumber>XYZ</ami:serialNumber>
+			<ami:numDigits>6</ami:numDigits>
+		</ami:meterAsset>
+		<ami:comFunction>
+			<ami:mRID>CM_DEVICE_TEST_SMR-E_1_20180727_0001</ami:mRID>
+			<ami:idType>METER_COMMUNICATION_MODULE_X_UDC_ASSET_ID</ami:idType>
+		</ami:comFunction>
+		<ami:serviceDeliveryPoint>
+			<ami:mRID>SDP_TEST_SMR-E_1_20180727_0001</ami:mRID>
+			<ami:idType>SDP_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+			<ami:serviceType>SMR-E</ami:serviceType>
+			<ami:locationCode>DefaultLocationCode</ami:locationCode>
+			<ami:serviceDeliveryRemarks>DefaultServiceDeliveryRemarks</ami:serviceDeliveryRemarks>
+			<ami:latitude>0.0</ami:latitude>
+			<ami:longitude>0.0</ami:longitude>
+		</ami:serviceDeliveryPoint>
+		<ami:serviceLocation>
+			<ami:mRID>PREM_SDP_TEST_SMR-E_1_20180727_0001</ami:mRID>
+			<ami:idType>PREMISE_X_CLIENT_PRMSE_ID</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+			<ami:addressGeneral>-</ami:addressGeneral>
+			<ami:addressGeneral2>-</ami:addressGeneral2>
+			<ami:city>-</ami:city>
+			<ami:stateOrProvince>VLA</ami:stateOrProvince>
+			<ami:country>Sweden</ami:country>
+			<ami:postalCode>-</ami:postalCode>
+		</ami:serviceLocation>
+		<ami:customerAccount>
+			<ami:mRID>TEST1_180727000001</ami:mRID>
+			<ami:idType>UdcAccountId</ami:idType>
+			<ami:pathName>ELLEVIO</ami:pathName>
+			<ami:billingCycle>DefaultBillingCycle</ami:billingCycle>
+		</ami:customerAccount>
+		<ami:requestPriority>1</ami:requestPriority>
+		<ami:measurementProfile>None</ami:measurementProfile>
+		<ami:touProfile />
+		<ami:holidayProfile />
+		<ami:loadLimitProfile />
+		<ami:loadControlTimeSwitchProfile />
+		<ami:reason>SET_PERIODIC_DELIVERY</ami:reason>
+		<ami:activationDateTime>2019-11-05T11:37:28.086+02:00</ami:activationDateTime>
+	</ami:payload>
+</ami:MeterAssetUpdateRequestMessage>

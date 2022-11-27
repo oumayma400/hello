@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-11T08:00:14Z" lineno="1" name="RemoveFile" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\SSH_Libraries\RemoveFile.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``RemoveFile``.</doc>
+<kw lineno="99" name="Download File">
+<arguments>
+<arg>PROJECT</arg>
+<arg>local_path</arg>
+<arg>remote_path</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="36" name="Get Collect Files By Meterid">
+<arguments>
+<arg>PROJECT</arg>
+<arg>collect_path</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="58" name="Remove File From Cim With Complet Path">
+<arguments>
+<arg>PROJECT</arg>
+<arg>file_path</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="79" name="Remove File From M2m With Complet Path">
+<arguments>
+<arg>PROJECT</arg>
+<arg>file_path</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="16" name="Remove File From Shared Folder">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_path</arg>
+<arg>file_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="124" name="Validate Collect">
+<arguments>
+<arg>collect_file</arg>
+<arg>xsd_file</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

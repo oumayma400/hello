@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShipmentFile
+	xmlns="http://www.sagemcom.com/shipmentfile/fluvius-shipment-file-meter-water-amm/2018-01"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	<Header>
+		<Security>
+			<SecurityKey_Siconia>
+				<xenc:EncryptedKey Id="SKGO">
+					<xenc:EncryptionMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+					<ds:KeyInfo Id="PKGO">
+						<ds:KeyValue>
+							<ds:RSAKeyValue>
+								<ds:Modulus>vqfrsoW1ICte7fmqvE5MTZyifsrXgpr2fsOgW0qHG42BGEjX2TE5YsupdELm3VjfJqO/5NKKvB8mnE1QX1ygCPlNs01X74AC+g87UDoVkuMrntjsJVf2EgcwO6V3SUtlw4h21KYO6a+IBdMhD6mRHWmqADIMIwMJTx2eAR8mp6mgZ6krOeCIZr4Ps32iHxDyfKQ+ehv38xCMgH5JbT51MFRE0jCJVqzqiWUN7aw17rRoj84aLXlPCRKie43oq1UD2JnALcSApcQOa+TRCTwizsSz/cH0Ngp1eM0b0ijBNNGWTbIoNI6Fhd0IUlF60jIPv2YJbKShdU2N7GI+RN23FQ==</ds:Modulus>
+								<ds:Exponent>AQAB</ds:Exponent>
+							</ds:RSAKeyValue>
+						</ds:KeyValue>
+						Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey"/>
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue>GMUVkPK5NkCRnnarXTHPAKOpPkN14KiTPg/6fzLqfmbkubkS86HCr4X7zrvGSxlJhkN6SXrQu+ioLJZpBAr6k3jxxWW1vKRnmbChVwEuE+90uyTHC3TCKyYAxMrdh/Df1n4UE/mJeFyCsL+exS4tfMcZ24boAvWWO+Gfyk/QrOCbbvNtCve97bItIBLXQfIRYgrfi71zqIgZypQ49R1KXscX68Uut12nNcvpMUjBtxidtjl7PIdthHGVO9nW2Cf2/N0b42Qhb98kIcJCInuPAPh6oENAlHIza4jzqJ3hS2sFnqIlBJ171mMFtVbFExnqDCF+Hfz/vE/X/xMJo9Jxng==</xenc:CipherValue>
+					</xenc:CipherData>
+					<xenc:CarriedKeyName>SKGO</xenc:CarriedKeyName>
+				</xenc:EncryptedKey>
+			</SecurityKey_Siconia>
+		</Security>
+	</Header>
+	<Body>
+		<Shipment>
+			<Main>
+				<Company>Eandis</Company>
+				<Supplier>SAGEMCOM</Supplier>
+				<Public_key_Siconia>
+					<ds:KeyInfo>
+						<ds:RetrievalMethod URI="#PKGO"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+				</Public_key_Siconia>
+			</Main>
+			<Header>
+				<Delivery_Note_Number>0012345678</Delivery_Note_Number>
+				<Device_type>SICONIA-WM20</Device_type>
+				<Configuration_version>253930682</Configuration_version>
+				<Shipment_date>20190816</Shipment_date>
+				<Order_id>0123456789</Order_id>
+				<Order_position_id>0010</Order_position_id>
+			</Header>
+			<Pallet>
+				<Pallet_id>062165811806341</Pallet_id>
+				<Box>
+					<Box_id>162165811800000</Box_id>
+					<Device_attributes>
+						<General>
+							<Serial_number>8SET0071000180</Serial_number>
+							<Customer_Article_Number>81210</Customer_Article_Number>
+							<Customer_Lot_Number>14/2018</Customer_Lot_Number>
+							<Test_report>LOT-ME1787606561</Test_report>
+							<Certification_Year>2018</Certification_Year>
+							<Certification_Number_Report>18/000000ON</Certification_Number_Report>
+							<Device_batch_number>Lot_3254_0686</Device_batch_number>
+							<Communication_method>RF</Communication_method>
+							<Year_of_manufactory>2018</Year_of_manufactory>
+							<Hardware_version>253930682</Hardware_version>
+							<Core_active_firmware_version>Core_active_firmware_version1</Core_active_firmware_version>
+						</General>
+						<Mbus>
+							<Individual_master_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Individual_master_key>
+							<Key_encryption_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Key_encryption_key>
+							<Firmware_authentication_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Firmware_authentication_key>
+							<Local_authentication_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Local_authentication_key>
+							<Communication-id-Water>
+								<Identification_number>32810799</Identification_number>
+								<Manufacturer_identification>SET</Manufacturer_identification>
+								<Version_Index>03.14</Version_Index>
+								<Version_Radio>07.26</Version_Radio>
+								<Device_type_identification>07</Device_type_identification>
+							</Communication-id-Water>
+						</Mbus>
+						<DLMSAttributes>
+							<Equipment_identifier>SET0000071000180</Equipment_identifier>
+						</DLMSAttributes>
+					</Device_attributes>
+					<Device_attributes>
+						<General>
+							<Serial_number>8SET0071000179</Serial_number>
+							<Customer_Article_Number>81210</Customer_Article_Number>
+							<Customer_Lot_Number>14/2018</Customer_Lot_Number>
+							<Test_report>LOT-ME1787606561</Test_report>
+							<Certification_Year>2018</Certification_Year>
+							<Certification_Number_Report>18/000000ON</Certification_Number_Report>
+							<Device_batch_number>Lot_3254_0686</Device_batch_number>
+							<Communication_method>RF</Communication_method>
+							<Year_of_manufactory>2018</Year_of_manufactory>
+							<Hardware_version>253930682</Hardware_version>
+							<Core_active_firmware_version>Core_active_firmware_version1</Core_active_firmware_version>
+						</General>
+						<Mbus>
+							<Individual_master_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Individual_master_key>
+							<Key_encryption_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Key_encryption_key>
+							<Firmware_authentication_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Firmware_authentication_key>
+							<Local_authentication_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SKGO</ds:KeyName>
+										<ds:RetrievalMethod URI="#SKGO"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>w4n3bMDAVRsMjbCUoNBOxW+sGiIABFgFhuiijxw3lVchgrP6IylZMYAvkD9/RKmVAAAAAAAAAAAAAAAAAAAAAA==</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Local_authentication_key>
+							<Communication-id-Water>
+								<Identification_number>32810799</Identification_number>
+								<Manufacturer_identification>SET</Manufacturer_identification>
+								<Version_Index>03.14</Version_Index>
+								<Version_Radio>07.26</Version_Radio>
+								<Device_type_identification>07</Device_type_identification>
+							</Communication-id-Water>
+						</Mbus>
+						<DLMSAttributes>
+							<Equipment_identifier>SET0000071000179</Equipment_identifier>
+						</DLMSAttributes>
+					</Device_attributes>
+				</Box>
+			</Pallet>
+		</Shipment>
+	</Body>
+</ShipmentFile>

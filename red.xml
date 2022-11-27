@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>2</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="XML_Preparation_Library" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/XML_Libraries/XML_Preparation_Library.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AccessDB" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/DB_Libraries/AccessDB.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="AMQ_Library" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/AMQ_Libraries/AMQ_Library.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="Collect" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/SELENIUM_Libraries/Collect.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="Collect_Validation" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/XML_Libraries/Collect_Validation.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="DB_Libraries.ElasticLib" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/DB_Libraries/ElasticLib.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ExpertCampaignPage" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Resources/PageObject/KeywordDefinationFiles/ExpertCampaignPage.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="FirmwareUpgradeCampaign" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/SELENIUM_Libraries/FirmwareUpgradeCampaign.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="Getconf" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/Read_Config/Getconf.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="KeyRenewalCampaign" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/SELENIUM_Libraries/KeyRenewalCampaign.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="Libraries.Log_Parser_Libraries.M2M_Parser" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/Log_Parser_Libraries/M2M_Parser.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="Libraries.Read_Config.ReadConfigFile" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/Read_Config/ReadConfigFile.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="RELAY" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/Relay_Libraries/RELAY.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="RemoveFile" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/SSH_Libraries/RemoveFile.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="SeleniumLib" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/SELENIUM_Libraries/SeleniumLib.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="XML_Verification_Library" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/XML_Libraries/XML_Verification_Library.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="Libraries.Log_Parser_Libraries.VSDC_P2P_Parser" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/Log_Parser_Libraries/VSDC_P2P_Parser.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ConfigVariables" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/Read_Config/ConfigVariables.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="ElasticLib" path="Test_auto_esb_project/system_e2e_automation_tests-SYSTEM_AUTO_ESB/Libraries/DB_Libraries/ElasticLib.py" dynamic="false"/>
+    <pythonpath/>
+    <classpath/>
+    <remoteLocations uri="http://127.0.0.1:8270/"/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+</projectConfiguration>

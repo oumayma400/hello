@@ -1,0 +1,69 @@
+<ami:MeterAssetUpdateRequestMessage
+	xmlns:ami="http://www.emeter.com/energyip/amiinterface">
+	<ami:header>
+		<ami:verb>request</ami:verb>
+		<ami:noun>MeterUpdate</ami:noun>
+		<ami:revision>1</ami:revision>
+		<ami:dateTime>2018-07-27T10:42:59.856+02:00</ami:dateTime>
+		<ami:source>FLUVIUS</ami:source>
+		<ami:messageID>202007271225</ami:messageID>
+		<ami:utilityId>FLUVIUS</ami:utilityId>
+	</ami:header>
+	<ami:payload>
+		<ami:meterAsset>
+			<ami:mRID>1SAG3100009610</ami:mRID>
+			<ami:idType>METER_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:parameter>
+				<ami:name>LOAD_LIMIT_VALUE</ami:name>
+				<ami:value>3</ami:value>
+			</ami:parameter>
+			<ami:parameter>
+				<ami:name>LOAD_LIMIT_DURATION</ami:name>
+				<ami:value>180</ami:value>
+			</ami:parameter>
+			<ami:modelNumber>DIG E-METER 2DR 230V 5(60)A</ami:modelNumber>
+			<ami:serialNumber>XYZ</ami:serialNumber>
+			<ami:numDigits>6</ami:numDigits>
+		</ami:meterAsset>
+		<ami:comFunction>
+			<ami:mRID>CM_DEVICE_TEST_SMR-E_1_20180727_0003</ami:mRID>
+			<ami:idType>METER_COMMUNICATION_MODULE_X_UDC_ASSET_ID</ami:idType>
+		</ami:comFunction>
+		<ami:serviceDeliveryPoint>
+			<ami:mRID>SDP_TEST_SMR-E_1_20180727_0003</ami:mRID>
+			<ami:idType>SDP_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:serviceType>SMR-E</ami:serviceType>
+			<ami:locationCode>DefaultLocationCode</ami:locationCode>
+			<ami:serviceDeliveryRemarks>DefaultServiceDeliveryRemarks</ami:serviceDeliveryRemarks>
+			<ami:latitude>0.0</ami:latitude>
+			<ami:longitude>0.0</ami:longitude>
+		</ami:serviceDeliveryPoint>
+		<ami:serviceLocation>
+			<ami:mRID>PREM_SDP_TEST_SMR-E_1_20180727_0003</ami:mRID>
+			<ami:idType>PREMISE_X_CLIENT_PRMSE_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:addressGeneral>-</ami:addressGeneral>
+			<ami:addressGeneral2>-</ami:addressGeneral2>
+			<ami:city>-</ami:city>
+			<ami:stateOrProvince>VLA</ami:stateOrProvince>
+			<ami:country>Belgium</ami:country>
+			<ami:postalCode>-</ami:postalCode>
+		</ami:serviceLocation>
+		<ami:customerAccount>
+			<ami:mRID>TEST1_180727000003</ami:mRID>
+			<ami:idType>UdcAccountId</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:billingCycle>DefaultBillingCycle</ami:billingCycle>
+		</ami:customerAccount>
+		<ami:requestPriority>1</ami:requestPriority>
+		<ami:measurementProfile>None</ami:measurementProfile>
+		<ami:touProfile />
+		<ami:holidayProfile />
+		<ami:loadLimitProfile />
+		<ami:loadControlTimeSwitchProfile />
+		<ami:reason>SET_LOAD_LIMIT</ami:reason>
+		<ami:activationDateTime>2018-07-27T10:42:59.562+02:00</ami:activationDateTime>
+	</ami:payload>
+</ami:MeterAssetUpdateRequestMessage>	

@@ -1,0 +1,38 @@
+<MeterAssetUpdateRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterUpdate</noun>
+		<revision>1</revision>
+		<dateTime>2021-11-02T09:26:44.214+01:00</dateTime>
+		<source>EIP</source>
+		<messageID>509</messageID>
+	</header>
+	<payload>
+		<meterAsset>
+			<mRID>SAG1030520045077</mRID>
+			<idType>METER_X_ELECTRONIC_ID</idType>
+			<parameter>
+				<name>profileName</name>
+				<value>setPQTHDVoltageThreshold</value>
+			</parameter>
+			<parameter>
+				<name>profile.setPQTHDVoltageThreshold.value</name>
+				<value>40</value>
+			</parameter>
+		</meterAsset>
+		<comFunction />
+		<serviceDeliveryPoint>
+			<locationCode></locationCode>
+			<serviceDeliveryRemarks></serviceDeliveryRemarks>
+			<latitude>0.0</latitude>
+			<longitude>0.0</longitude>
+		</serviceDeliveryPoint>
+		<serviceLocation />
+		<customerAccount>
+			<billingCycle></billingCycle>
+		</customerAccount>
+		<executeStartTime>2021-11-02T09:25:14.000+01:00</executeStartTime>
+		<executeExpireTime>2030-11-02T09:55:14.000+01:00</executeExpireTime>
+	</payload>
+</MeterAssetUpdateRequestMessage>

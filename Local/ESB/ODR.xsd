@@ -1,0 +1,65 @@
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.emeter.com/energyip/amiinterface" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MeterReadsReplyMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="verb" type="xs:string" />
+              <xs:element name="noun" type="xs:string" />
+              <xs:element name="revision" type="xs:unsignedByte" />
+              <xs:element name="dateTime" type="xs:dateTime" />
+              <xs:element name="source" type="xs:string" />
+              <xs:element name="messageID" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="payload">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MeterReading">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Meter">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="mRID" type="xs:integer" />
+                          <xs:element name="idType" type="xs:string" />
+                          <xs:element name="pathName" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element maxOccurs="unbounded" name="IntervalBlock">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="readingTypeId" type="xs:string" />
+                          <xs:element name="IReading">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="endTime" type="xs:dateTime" />
+                                <xs:element name="value" type="xs:unsignedByte" />
+                                <xs:element name="collectionTime" type="xs:dateTime" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="reply">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="replyCode" type="xs:unsignedByte" />
+              <xs:element name="correlationId" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<MeterReadsRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterReads</noun>
+		<revision>1</revision>
+		<dateTime>2019-07-09T13:30:00</dateTime>
+		<source>EVN</source>
+		<messageID>166testL</messageID>
+	</header>
+	<payload>
+		<startTime>2020-03-10T09:10:00</startTime>
+		<endTime>2020-04-14T13:40:00</endTime>
+		<Meter>
+			<mRID>178210000001</mRID>
+			<idType>METER_X_UDC_ASSET_ID</idType>
+		</Meter>
+		<measurementProfile>LP1</measurementProfile>
+		<retrieveRegisterReads>false</retrieveRegisterReads>
+		<retrieveIntervalReads>false</retrieveIntervalReads>
+		<demandReset>false</demandReset>
+		<retrieveEvents>false</retrieveEvents>
+		<requestPriority>1</requestPriority>
+		<executeStartTime>2021-10-06T16:00:00</executeStartTime>
+		<executeExpireTime>2022-06-15T13:30:00</executeExpireTime>
+	</payload>
+</MeterReadsRequestMessage> 
+ 

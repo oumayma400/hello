@@ -1,0 +1,11 @@
+lxml
+stomp.py
+selenium
+psycopg2
+pandas
+jproperties
+elasticsearch
+paramiko
+serial
+configparser
+robotframework-sshlibrary

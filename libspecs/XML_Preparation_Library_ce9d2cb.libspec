@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-11T09:53:03Z" lineno="1" name="XML_Preparation_Library" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\XML_Libraries\XML_Preparation_Library.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``XML_Preparation_Library``.</doc>
+<kw lineno="387" name="Compare">
+<arguments>
+<arg>start</arg>
+<arg>end</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="29" name="Default Preparation">
+<arguments>
+<arg>mrid: str</arg>
+<arg>xml: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="45" name="Default Preparation EVN">
+<arguments>
+<arg>mrid: str</arg>
+<arg>xml: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="63" name="Default Preparation EVN 2">
+<arguments>
+<arg>mrid: str</arg>
+<arg>xml: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="467" name="Float To Integer">
+<arguments>
+<arg>x</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="368" name="Get">
+<arguments>
+<arg>xml: str</arg>
+<arg>tag: str</arg>
+<arg>status</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="460" name="Get Data">
+<arguments>
+<arg>Project</arg>
+<arg>j: int</arg>
+<arg>column</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="453" name="Get Dates">
+<arguments>
+<arg>start</arg>
+<arg>end</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="473" name="Get Index">
+<arguments>
+<arg>Project</arg>
+<arg>DCT_Profiles</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="185" name="Meter Addparams By Param Name">
+<arguments>
+<arg>project</arg>
+<arg>xml</arg>
+<arg>param</arg>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="209" name="Meter Deleteparams By Param Name">
+<arguments>
+<arg>xml</arg>
+<arg>param</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="140" name="Meter Updateparam Name">
+<arguments>
+<arg>xml</arg>
+<arg>param</arg>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="123" name="Meter Updateparams">
+<arguments>
+<arg>xml</arg>
+<arg>param</arg>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="162" name="Meter Updateparams By Param Name">
+<arguments>
+<arg>xml</arg>
+<arg>param</arg>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="478" name="Random Dates">
+<arguments>
+<arg>start</arg>
+<arg>end</arg>
+<arg>n=2</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="252" name="Standard Default Preparation">
+<arguments>
+<arg>mrid: str</arg>
+<arg>xml: str</arg>
+<arg>tag: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="281" name="Standard Default Preparation Past Date Time">
+<arguments>
+<arg>mrid: str</arg>
+<arg>xml: str</arg>
+<arg>tag: str</arg>
+<arg>timeparam</arg>
+<arg>shift_value</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="335" name="Update Meter">
+<arguments>
+<arg>mrid: str</arg>
+<arg>xml: str</arg>
+<arg>tag: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="321" name="Update Text Message">
+<arguments>
+<arg>value: str</arg>
+<arg>xml: str</arg>
+<arg>tag: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="92" name="Update Value By Param">
+<arguments>
+<arg>xml: str</arg>
+<arg>value: str</arg>
+<arg>paramNamePath: str</arg>
+<arg>valuePath: str</arg>
+<arg>paramName: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="83" name="Update Value By Path">
+<arguments>
+<arg>path: str</arg>
+<arg>value: str</arg>
+<arg>xml: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="115" name="Update XML">
+<arguments>
+<arg>path: str</arg>
+<arg>value: str</arg>
+<arg>xml: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="408" name="Update Xml File With Intervall">
+<arguments>
+<arg>mrid: str</arg>
+<arg>xml: str</arg>
+<arg>tag: str</arg>
+<arg>startTime</arg>
+<arg>endTime</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="226" name="Update Xml Request">
+<arguments>
+<arg>xml</arg>
+<arg>param</arg>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="239" name="Update Xml Request Empty Param">
+<arguments>
+<arg>xml</arg>
+<arg>param</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<MeterAssetDisconnectRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterDisconnect</noun>
+		<revision>1</revision>
+		<dateTime>2021-11-09T13:58:31.898+01:00</dateTime>
+		<source>EIP</source>
+		<messageID>534</messageID>
+	</header>
+	<payload>
+		<meterAsset>
+			<mRID>SAG1030000045065</mRID>
+			<idType>METER_X_ELECTRONIC_ID</idType>
+		</meterAsset>
+		<executeStartTime>2021-11-09T13:58:14.000+01:00</executeStartTime>
+		<executeExpireTime>2030-11-09T14:28:14.000+01:00</executeExpireTime>
+	</payload>
+</MeterAssetDisconnectRequestMessage>
+
+
+
+

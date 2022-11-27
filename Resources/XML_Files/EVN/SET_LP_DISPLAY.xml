@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<MeterAssetUpdateRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterUpdate</noun>
+		<revision>1</revision>
+		<dateTime>2017-07-18T15:27:23+06:00</dateTime>
+		<source>MDMS</source>
+		<messageID>setlprecording178210000207</messageID>
+	</header>
+	<payload>
+		<meterAsset>
+			<mRID>178210000207</mRID>
+			<idType>METER_X_UDC_ASSET_ID</idType>
+
+
+			<modelNumber></modelNumber>
+			<serialNumber></serialNumber>
+		</meterAsset>
+		<comFunction>
+			<mRID></mRID>
+			<idType></idType>
+		</comFunction>
+		<serviceDeliveryPoint>
+			<mRID></mRID>
+			<idType></idType>
+			<pathName></pathName>
+			<serviceType></serviceType>
+			<locationCode></locationCode>
+			<serviceDeliveryRemarks></serviceDeliveryRemarks>
+			<latitude>37.571603</latitude>
+			<longitude>-122.267501</longitude>
+		</serviceDeliveryPoint>
+		<serviceLocation>
+			<mRID></mRID>
+			<idType></idType>
+			<pathName></pathName>
+			<addressGeneral></addressGeneral>
+			<city></city>
+			<stateOrProvince></stateOrProvince>
+			<country></country>
+		</serviceLocation>
+		<customerAccount>
+			<mRID></mRID>
+			<idType></idType>
+			<pathName></pathName>
+			<billingCycle></billingCycle>
+		</customerAccount>
+		<requestPriority>1</requestPriority>
+		<executeStartTime>2020-07-06T15:00:23+06:00</executeStartTime>
+		<measurementProfile></measurementProfile>
+		<touProfile />
+		<holidayProfile />
+		<loadLimitProfile />
+		<loadControlTimeSwitchProfile />
+		<reason>SET_LP_DISPLAY</reason>
+	</payload>
+</MeterAssetUpdateRequestMessage>

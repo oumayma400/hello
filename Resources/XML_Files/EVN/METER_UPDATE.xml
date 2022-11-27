@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<MeterAssetUpdateRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterUpdate</noun>
+		<dateTime>2020-06-08T13:21:00</dateTime>
+		<source>MDMS</source>
+		<messageID>update178210000001</messageID>
+	</header>
+	<payload>
+		<meterAsset>
+			<mRID>178210000207</mRID>
+			<idType>METER_X_UDC_ASSET_ID</idType>
+
+
+			<modelNumber></modelNumber>
+			<serialNumber>XYZ</serialNumber>
+			<serviceType>ELECTRIC</serviceType>
+		</meterAsset>
+		<comFunction>
+		</comFunction>
+		<serviceDeliveryPoint>
+		</serviceDeliveryPoint>
+		<serviceLocation>
+		</serviceLocation>
+		<customerAccount>
+			<billingCycle>DefaultBillingCycle</billingCycle>
+		</customerAccount>
+		<executeStartTime>2020-10-20T09:00:02.396Z</executeStartTime>
+		<executeExpireTime>2021-01-31T10:53:02.000Z</executeExpireTime>
+	</payload>
+</MeterAssetUpdateRequestMessage>
+

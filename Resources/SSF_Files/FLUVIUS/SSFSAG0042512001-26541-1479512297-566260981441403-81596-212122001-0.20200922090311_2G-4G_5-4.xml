@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShipmentFile
+	xmlns="http://www.sagemcom.com/kms/entity/shipmentfile/NETZ-NOE-shipment-file-meter-elec-ssf/2018-01"
+	xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	Id="d327e4e8-13b0-4952-8372-c6bc661b129c">
+	<Header>
+		<Security>
+			<SecurityKey_Siconia_SMKEK>
+				<xenc:EncryptedKey Id="SecurityKey_Siconia_SMKEK">
+					<xenc:EncryptionMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+					<ds:KeyInfo>
+						<ds:RetrievalMethod
+							URI="#Public_key_Siconia_SMKEK"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue>fPx5bm4sfFC+Ch9bV2+EJfKo1EuYCdQqDao5iUN4o1ztcwOu7A6E2XVRuKCz6bf3U88kO5Gg2mQLp2DN+LfQTnU6UF1q/BtRe9WDNSDA/Z3aG9TFxbVMDdf16b080AlEe7+Nf6td8NDVzJhrIkqDYHUp0CLeMt+Zt40bVs2kUK44HSfU21e+HMxRXCNO1qDIXlWoHvFauMRtPy/hEN3CTmReXdjXB/3hi8TYS3BkJk5L2YYKxHQ2nVEtpQFoeotfJK3PpxGx6Pwc7b2Op2VWTTu4MrbtgVBpUxzkJhW8nsvBPNptkrwLb2DsLocJptqdv3c+RaxsBD16ksidRyVGJw==</xenc:CipherValue>
+					</xenc:CipherData>
+					<xenc:CarriedKeyName>SecurityKey_Siconia_SMKEK</xenc:CarriedKeyName>
+				</xenc:EncryptedKey>
+			</SecurityKey_Siconia_SMKEK>
+			<SecurityKey_Siconia_SMWK>
+				<xenc:EncryptedKey Id="SecurityKey_Siconia_SMWK">
+					<xenc:EncryptionMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+					<ds:KeyInfo>
+						<ds:RetrievalMethod
+							URI="#Public_key_Siconia_SMWK"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue>qbgfj5x+DQigUJvAVGdtAgSugSuUZYTr0ZVk7t9d/ZpEK9e+oiYvAxnB4onqqVQknKsk3rdggJ3P0bAMBseHJ69hs53v7BkKoY4KIB0vSW70UT/WVVzVBvSf7CBDCfGRBUrubEjmc/hKM6Uu6pp2RxKdZI1P/zgu1ZTfUAkC9sB7tv3yvHdQ0tqiYFREEJSbLrcSaYwEbVlOnqjSJ7fRAIgylXNKvkh4HfVU5cDKtM6oENaOPz+JkHkCt85/gMrVAO65uGJBG1tajGrOSM2hejJzcUFGJyM7Hb16ZW1dumI5/d5rNzbICil0g6cbbbz8rK+sLceFBvALUomaMQ30OA==</xenc:CipherValue>
+					</xenc:CipherData>
+					<xenc:CarriedKeyName>SecurityKey_Siconia_SMWK</xenc:CarriedKeyName>
+				</xenc:EncryptedKey>
+			</SecurityKey_Siconia_SMWK>
+			<SecurityKey_Siconia_SMDC>
+				<xenc:EncryptedKey Id="SecurityKey_Siconia_SMDC">
+					<xenc:EncryptionMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+					<ds:KeyInfo>
+						<ds:RetrievalMethod
+							URI="#Public_key_Siconia_SMDC"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue>X9PdEwHoDCfGQ5skjW2omz04Yw18knQstZf+m3bi7pHK8JDqxEydH91E10VWqN0v4uRP/Kqa4Kypi99n0ALM4qjdxSyQ42yp7FwhEp2pkYcY/doSsNveyawtfv5m4JKudeouyW+VpJi68cBsCA3nqkwfZnwn42yTbRDwH2ZiK6JY50A1icGvj2NSy8OyZ7DGeGPMlhuPsmeyPP1Bkq/grk731PBgRwjNhGZNarnGprGUEghGuhCLG3lulOeLstnJCiDqzQFQkmC5R4jrYzWXpSRFkTc8mWaYmTKZjByn3agYjyS++ounSfVV26FX7/lrqLtRWWYZ48hMjWaoUziedQ==</xenc:CipherValue>
+					</xenc:CipherData>
+					<xenc:CarriedKeyName>SecurityKey_Siconia_SMDC</xenc:CarriedKeyName>
+				</xenc:EncryptedKey>
+			</SecurityKey_Siconia_SMDC>
+			<SecurityKey_Siconia_SMP0>
+				<xenc:EncryptedKey Id="SecurityKey_Siconia_SMP0">
+					<xenc:EncryptionMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+					<ds:KeyInfo>
+						<ds:RetrievalMethod
+							URI="#Public_key_Siconia_SMP0"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue>W/WCeuVAxeSjHvWAXykj6AKQXVEvNubhiYUEeCO1GNUHdCJlgeV3D9e45IxP3IBWaPWhrXN0mwJux3IrP7hl8/KHE0f+FeFVX+o0K4z58vMs+KOqu5poOWn/JPCHU7syUh74WDlxFHT4+98+EIwxp/7rVPBL0QzFz8Yd7qh3aRALaeU4QCeYV0qMKwfGGnNeLLep8BPdraRkeIOraUB7Abw0Jj46n3aK8SsXDwlCgQch5odFDuW3na6XRQyIeH2RG4Rd9+r3U4q0wSkXNrqVRmk56hCQhxdAhGsdiH3XZRHk/2Oi6DlK1Jlz/fc600K+L2EMVAGeNVJqOylJniR8Mg==</xenc:CipherValue>
+					</xenc:CipherData>
+					<xenc:CarriedKeyName>SecurityKey_Siconia_SMP0</xenc:CarriedKeyName>
+				</xenc:EncryptedKey>
+			</SecurityKey_Siconia_SMP0>
+			<SecurityKey_Siconia_SMP1>
+				<xenc:EncryptedKey Id="SecurityKey_Siconia_SMP1">
+					<xenc:EncryptionMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+					<ds:KeyInfo>
+						<ds:RetrievalMethod
+							URI="#Public_key_Siconia_SMP1"
+							Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue>E6uSMzYUCSdhNLYKpF9GYoY/wyeIpRxbMnJodChq4VaLIKWbJfwG8tNIfz2yBVfjN+9d8Omfp+5JT9XSx3FmqpVMhYT2MN+RYZGmCkKW/Qpdw5xQUrjknxyM6KK0evH/69toMwxUy94uMUYLhEZhYiZ5rDY4EPx7mdncqXO4sQSklvw/EM1xettkCKchfsB19iUdHn+Y5lSb3r+IFaRJJozi4KEh7MQXJB4z4IUa1ngLso8sXWdrhVrnDSPx+GRdNnMdAhTMEEkkPoMlGH6qFFRegZaHHFHtDno7Z8X/DTUNLAUYPu4TAA3UHa0PU0hO5j0cFxFxihvuz1/tSSZAwQ==</xenc:CipherValue>
+					</xenc:CipherData>
+					<xenc:CarriedKeyName>SecurityKey_Siconia_SMP1</xenc:CarriedKeyName>
+				</xenc:EncryptedKey>
+			</SecurityKey_Siconia_SMP1>
+		</Security>
+	</Header>
+	<Body>
+		<Shipment>
+			<Main>
+				<Company>NETZNOE</Company>
+				<Supplier>KA</Supplier>
+				<Public_key_Siconia_SMKEK>
+					<ds:KeyInfo Id="Public_key_Siconia_SMKEK">
+						<ds:KeyValue>
+							<ds:RSAKeyValue>
+								<ds:Modulus>l+AXSemNgyb/NxeP+uYFtJB0d2wnn13ovrCI3RkYdulxX2m4xcqNtrGYyFnWPmgn+VXBqm9GWvR99wigndZY+2G5j3+wXTf5UWCaSXZihIK4CrZZEmPM4rSkNP7DJ95FKHh3hZ80nGFZjqAfKgocwBhvUit9jfjpImzQ3Syh+Gu9pBJ9nTtXj6inuxadgLzIxyzhIvXIV5t4t/g9P5JR3Go4m/NmbniyQpbwYdVGOvDwGPpxyQIN3VXvqmdUn9GXg8wG5qwJWntlNFTy5fJPjZEZqLycEWbMNyuq+XQtdnnzIpPcuDlpVj9lbu3MBb3zJF1X0K9dhQEhp9n+OaMOjQ==</ds:Modulus>
+								<ds:Exponent>AQAB</ds:Exponent>
+							</ds:RSAKeyValue>
+						</ds:KeyValue>
+					</ds:KeyInfo>
+				</Public_key_Siconia_SMKEK>
+				<Public_key_Siconia_SMWK>
+					<ds:KeyInfo Id="Public_key_Siconia_SMWK">
+						<ds:KeyValue>
+							<ds:RSAKeyValue>
+								<ds:Modulus>xYHEIlshVocBHDkudj/nttDXvttk+xEu660giaCdK94JJHnUkdzsncK23k17hwgCoYY1vFaHNNwrMk+OZk08gcYVLh4MyudK4kYO9IZWbkLN52E5TonyqVfK8Pm0L9vT8+hi3vIUSNSb1/m9YKFNB55QSZYJV11XIrKf9b83P/nENtuy4YkwwjgC8QTbbkS7QFabsnwoQk8JzyQQczJaLmhTkXTHfyH78bO2PnVvRk2HVeN3NPfhh341naHYH4f8my6m60zOm13+WTwMklhgX5m1ZDNmqD6fE6KsPSJ8uAO/g8U7wSHmU3ICQJLUv2luORe8nNSV55TUURi4BiEO6Q==</ds:Modulus>
+								<ds:Exponent>AQAB</ds:Exponent>
+							</ds:RSAKeyValue>
+						</ds:KeyValue>
+					</ds:KeyInfo>
+				</Public_key_Siconia_SMWK>
+				<Public_key_Siconia_SMDC>
+					<ds:KeyInfo Id="Public_key_Siconia_SMDC">
+						<ds:KeyValue>
+							<ds:RSAKeyValue>
+								<ds:Modulus>jtDmRiVRhADTbEjkOckJHNFT2l3fUEqM0/Mma9adC+QpzuBPKInqtkuPCvuBBxc4AMUVk8d1OT2Qb2czg5w1QZhE/LF/+9q+rYl0jV+cT9ib3CRpqYFfQn0cMg3QhRg/ePPUK2TTRTzSIF5zVW55h1RwYee461wwrv76I2dzFNTPs9sEhAlREeBhjngSt14cqdUULgWyUxi3YjbWEFgzYSS6OBcLBidIpfxTUMoUudQ4/Wex/YLuJF6a+zj/LBJQHTIO8c7tqMmWEmC1opFo2Et8g1ygXUGrbpb6Yrj+F7V5/RP0eYraJqNPU7Cnn6BNf7r7l4oufDDoKDoJP5k70w==</ds:Modulus>
+								<ds:Exponent>AQAB</ds:Exponent>
+							</ds:RSAKeyValue>
+						</ds:KeyValue>
+					</ds:KeyInfo>
+				</Public_key_Siconia_SMDC>
+				<Public_key_Siconia_SMP0>
+					<ds:KeyInfo Id="Public_key_Siconia_SMP0">
+						<ds:KeyValue>
+							<ds:RSAKeyValue>
+								<ds:Modulus>xYHEIlshVocBHDkudj/nttDXvttk+xEu660giaCdK94JJHnUkdzsncK23k17hwgCoYY1vFaHNNwrMk+OZk08gcYVLh4MyudK4kYO9IZWbkLN52E5TonyqVfK8Pm0L9vT8+hi3vIUSNSb1/m9YKFNB55QSZYJV11XIrKf9b83P/nENtuy4YkwwjgC8QTbbkS7QFabsnwoQk8JzyQQczJaLmhTkXTHfyH78bO2PnVvRk2HVeN3NPfhh341naHYH4f8my6m60zOm13+WTwMklhgX5m1ZDNmqD6fE6KsPSJ8uAO/g8U7wSHmU3ICQJLUv2luORe8nNSV55TUURi4BiEO6Q==</ds:Modulus>
+								<ds:Exponent>AQAB</ds:Exponent>
+							</ds:RSAKeyValue>
+						</ds:KeyValue>
+					</ds:KeyInfo>
+				</Public_key_Siconia_SMP0>
+				<Public_key_Siconia_SMP1>
+					<ds:KeyInfo Id="Public_key_Siconia_SMP1">
+						<ds:KeyValue>
+							<ds:RSAKeyValue>
+								<ds:Modulus>iuGm5NviMXPwANQmvu2cxrOPD55de5VLAlh61MY8PsoaNM60hsWL4LYwlegeQRMT/N56fslsY6qdzVe+GnyYCfE1CLn5FH9+z0QwGTtmT0Nip2m/+/bwp6B7KBUfrL38noSqRecACiMXDQxbt1I9W2IaKHSM0ZmH4VKHNr56NsjjXH3qRAo4n7MYj/isfmMO/otcejHFVgTz8mrBlOM8Zno314BU0piZDEhd4YrVzv9jPyIiOQvqnG9yxdEnkYFAAS5si5HTXYI8psLlpAdCriXqVD+wDuVeyzGcE+dlEdJ6WRAgGxrJcvClp+yIkECknzqMYzQGkEiq48P8FoKDDQ==</ds:Modulus>
+								<ds:Exponent>AQAB</ds:Exponent>
+							</ds:RSAKeyValue>
+						</ds:KeyValue>
+					</ds:KeyInfo>
+				</Public_key_Siconia_SMP1>
+			</Main>
+			<Header>
+				<Delivery_Note_Number>1479512297</Delivery_Note_Number>
+				<Device_type>MA309MH4LAT6</Device_type>
+				<Function_class>SM2121</Function_class>
+				<Configuration_version>212122101</Configuration_version>
+				<Shipment_date>20200922</Shipment_date>
+				<Order_id>4561896</Order_id>
+				<Order_position_id>0010</Order_position_id>
+			</Header>
+			<Pallet>
+				<Pallet_id>pallet_1</Pallet_id>
+				<Box>
+					<Box_id>box_1</Box_id>
+					<Device_attributes>
+						<General>
+							<Serial_number>181221327019</Serial_number>
+							<Customer_Article_Number>13304</Customer_Article_Number>
+							<Test_report>1887601778</Test_report>
+							<Certification_Year>2019</Certification_Year>
+							<Certification_Number_Report>18/000000ON</Certification_Number_Report>
+							<Device_batch_number>Lot_178127572000</Device_batch_number>
+							<Communication_method>2G/4G</Communication_method>
+							<Year_of_manufactory>2019</Year_of_manufactory>
+							<Hardware_version>253691074_A</Hardware_version>
+							<Firmware_version>
+								<FirmwareName>MTR_LR</FirmwareName>
+								<FirmwareID>00.51.03</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>APP_NLR</FirmwareName>
+								<FirmwareID>01.52.11</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>COM_NLR</FirmwareName>
+								<FirmwareID />
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>LP_LR</FirmwareName>
+								<FirmwareID>02.04</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>PLC_NLR</FirmwareName>
+								<FirmwareID>V14.3.1.0</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+						</General>
+						<MobileCommunicationAttributes>
+							<Simcard>
+								<Communication_provider>A1</Communication_provider>
+								<Communication_provider_batch_id>VF_00001_09</Communication_provider_batch_id>
+								<ICC_id>89314404000000900000</ICC_id>
+							</Simcard>
+							<IMSI>
+								<IMSI>123456789123456</IMSI>
+							</IMSI>
+							<Modem>
+								<IMEI>010203040506070</IMEI>
+								<Communication_module_id>3100-00001C-0922</Communication_module_id>
+								<Hardware_version>30F99E4699190D21A359AE028519A03D</Hardware_version>
+								<Firmware_version>30F99E4699190D21A359AE028519A03D</Firmware_version>
+							</Modem>
+						</MobileCommunicationAttributes>
+						<DLMSAttributes>
+							<Equipment_identifier>KFM1010511327019</Equipment_identifier>
+							<HLS_active>5</HLS_active>
+							<Master_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SecurityKey_Siconia_SMKEK</ds:KeyName>
+										<ds:RetrievalMethod
+											URI="#SecurityKey_Siconia_SMKEK"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>JeReRU3+4iZSrkHGXO7ioqDTsXxcDNErQb8iamqI3wQAAAAAAAAAAAAAAAAAAAAB</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Master_key>
+							<Customer_specific_role>
+								<Name>001</Name>
+								<Description>SM_MC</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMWK</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMWK"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>tAZRPx3kk+Uf96wgOgRsboog1mqZbBYKVCf5r5cjkVMAAAAAAAAAAAAAAAAAAAAD</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMWK</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMWK"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>gkSPw559NbJkAvu/u7BJJE86NrBebrtQEosSc+nrt5kAAAAAAAAAAAAAAAAAAAAE</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>005</Name>
+								<Description>SM_IC</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>gUE1OV1PhyspT9csRnAyhFPLP30FN46vVCnmfYKGnlQAAAAAAAAAAAAAAAAAAAAH</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>RzldoUKPvYVQhpJfJi6g7LGJtDnFgpnKDsQbDMYSLz0AAAAAAAAAAAAAAAAAAAAI</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>006</Name>
+								<Description>SM_MA</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>lJVtLRqg5FCCFG/8ft9gLtvItfs3tR5iIyL1tglniVAAAAAAAAAAAAAAAAAAAAAJ</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>Tlc5RY7sf59XPKp/TXiTzG1SWzwr39cZzYnbct55iroAAAAAAAAAAAAAAAAAAAAQ</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>007</Name>
+								<Description>SM_CC</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>AbHl7D2F90/IMgY6agvSSERgMM9ZMRGkRf8KN9033dAAAAAAAAAAAAAAAAAAAAAR</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>GNe/58ViQAYU5SmZygircViqmtcOOBbyw++JCMMHGcUAAAAAAAAAAAAAAAAAAAAS</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>103</Name>
+								<Description>SM_CI</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP1</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP1"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>vXYdcMbp0lfItkBOwF9mlIvNvgleTbvrf7mrNJoOOp0AAAAAAAAAAAAAAAAAAAAT</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+							</Customer_specific_role>
+						</DLMSAttributes>
+					</Device_attributes>
+
+					<Device_attributes>
+						<General>
+							<Serial_number>181221327020</Serial_number>
+							<Customer_Article_Number>13304</Customer_Article_Number>
+							<Test_report>1887601778</Test_report>
+							<Certification_Year>2019</Certification_Year>
+							<Certification_Number_Report>18/000000ON</Certification_Number_Report>
+							<Device_batch_number>Lot_178127572000</Device_batch_number>
+							<Communication_method>2G/4G</Communication_method>
+							<Year_of_manufactory>2019</Year_of_manufactory>
+							<Hardware_version>253691074_A</Hardware_version>
+							<Firmware_version>
+								<FirmwareName>MTR_LR</FirmwareName>
+								<FirmwareID>00.51.03</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>APP_NLR</FirmwareName>
+								<FirmwareID>01.52.11</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>COM_NLR</FirmwareName>
+								<FirmwareID />
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>LP_LR</FirmwareName>
+								<FirmwareID>02.04</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+							<Firmware_version>
+								<FirmwareName>PLC_NLR</FirmwareName>
+								<FirmwareID>V14.3.1.0</FirmwareID>
+								<LegallyRelevant>false</LegallyRelevant>
+							</Firmware_version>
+						</General>
+						<MobileCommunicationAttributes>
+							<Simcard>
+								<Communication_provider>A1</Communication_provider>
+								<Communication_provider_batch_id>VF_00001_09</Communication_provider_batch_id>
+								<ICC_id>89314404000000900000</ICC_id>
+							</Simcard>
+							<IMSI>
+								<IMSI>123456789123456</IMSI>
+							</IMSI>
+							<Modem>
+								<IMEI>010203040506070</IMEI>
+								<Communication_module_id>3100-00001C-0922</Communication_module_id>
+								<Hardware_version>30F99E4699190D21A359AE028519A03D</Hardware_version>
+								<Firmware_version>30F99E4699190D21A359AE028519A03D</Firmware_version>
+							</Modem>
+						</MobileCommunicationAttributes>
+						<DLMSAttributes>
+							<Equipment_identifier>KFM1010511327020</Equipment_identifier>
+							<HLS_active>5</HLS_active>
+							<Master_key>
+								<xenc:EncryptedData
+									Type="http://www.w3.org/2001/04/xmlenc#Content">
+									<xenc:EncryptionMethod
+										Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+									<ds:KeyInfo>
+										<ds:KeyName>SecurityKey_Siconia_SMKEK</ds:KeyName>
+										<ds:RetrievalMethod
+											URI="#SecurityKey_Siconia_SMKEK"
+											Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+									</ds:KeyInfo>
+									<xenc:CipherData>
+										<xenc:CipherValue>JeReRU3+4iZSrkHGXO7ioqDTsXxcDNErQb8iamqI3wQAAAAAAAAAAAAAAAAAAAAB</xenc:CipherValue>
+									</xenc:CipherData>
+								</xenc:EncryptedData>
+							</Master_key>
+							<Customer_specific_role>
+								<Name>001</Name>
+								<Description>SM_MC</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMWK</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMWK"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>tAZRPx3kk+Uf96wgOgRsboog1mqZbBYKVCf5r5cjkVMAAAAAAAAAAAAAAAAAAAAD</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMWK</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMWK"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>gkSPw559NbJkAvu/u7BJJE86NrBebrtQEosSc+nrt5kAAAAAAAAAAAAAAAAAAAAE</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>005</Name>
+								<Description>SM_IC</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>gUE1OV1PhyspT9csRnAyhFPLP30FN46vVCnmfYKGnlQAAAAAAAAAAAAAAAAAAAAH</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>RzldoUKPvYVQhpJfJi6g7LGJtDnFgpnKDsQbDMYSLz0AAAAAAAAAAAAAAAAAAAAI</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>006</Name>
+								<Description>SM_MA</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>lJVtLRqg5FCCFG/8ft9gLtvItfs3tR5iIyL1tglniVAAAAAAAAAAAAAAAAAAAAAJ</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>Tlc5RY7sf59XPKp/TXiTzG1SWzwr39cZzYnbct55iroAAAAAAAAAAAAAAAAAAAAQ</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>007</Name>
+								<Description>SM_CC</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>AbHl7D2F90/IMgY6agvSSERgMM9ZMRGkRf8KN9033dAAAAAAAAAAAAAAAAAAAAAR</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+								<GAK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP0</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP0"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>GNe/58ViQAYU5SmZygircViqmtcOOBbyw++JCMMHGcUAAAAAAAAAAAAAAAAAAAAS</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GAK>
+							</Customer_specific_role>
+							<Customer_specific_role>
+								<Name>103</Name>
+								<Description>SM_CI</Description>
+								<GUEK>
+									<xenc:EncryptedData
+										Type="http://www.w3.org/2001/04/xmlenc#Content">
+										<xenc:EncryptionMethod
+											Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+										<ds:KeyInfo>
+											<ds:KeyName>SecurityKey_Siconia_SMP1</ds:KeyName>
+											<ds:RetrievalMethod
+												URI="#SecurityKey_Siconia_SMP1"
+												Type="http://www.w3.org/2001/04/xmlenc#EncryptedKey" />
+										</ds:KeyInfo>
+										<xenc:CipherData>
+											<xenc:CipherValue>vXYdcMbp0lfItkBOwF9mlIvNvgleTbvrf7mrNJoOOp0AAAAAAAAAAAAAAAAAAAAT</xenc:CipherValue>
+										</xenc:CipherData>
+									</xenc:EncryptedData>
+								</GUEK>
+							</Customer_specific_role>
+						</DLMSAttributes>
+					</Device_attributes>
+				</Box>
+			</Pallet>
+		</Shipment>
+	</Body>
+</ShipmentFile>

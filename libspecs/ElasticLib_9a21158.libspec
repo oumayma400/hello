@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-12T11:28:10Z" lineno="1" name="ElasticLib" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\DB_Libraries\ElasticLib.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``ElasticLib``.</doc>
+<kw lineno="404" name="Get Cep Events">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>event_type</arg>
+<arg>delta</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="22" name="Select Elastic">
+<arguments>
+<arg>PROJECT</arg>
+<arg>indexstr</arg>
+<arg>param</arg>
+<arg>val</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="235" name="Sla Dates Updated">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="345" name="Sla Delivery Params Updated">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+<arg>delivery_list: list</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="285" name="Sla Suspend Params Updated">
+<arguments>
+<arg>PROJECT</arg>
+<arg>meter_id</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="98" name="Verify Dc Param Update In Elastic">
+<arguments>
+<arg>PROJECT</arg>
+<arg>indexstr</arg>
+<arg>val</arg>
+<arg>uaaparam</arg>
+<arg>uaavalue</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="394" name="Verify Dcs Status In Sla">
+<arguments>
+<arg>PROJECT</arg>
+<arg>params</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="386" name="Verify Meters Status In Sla">
+<arguments>
+<arg>PROJECT</arg>
+<arg>params</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="142" name="Verify Param Deleted In Elastic">
+<arguments>
+<arg>PROJECT</arg>
+<arg>indexstr</arg>
+<arg>param</arg>
+<arg>val</arg>
+<arg>uaaparam</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="51" name="Verify Param Update In Elastic">
+<arguments>
+<arg>PROJECT</arg>
+<arg>indexstr</arg>
+<arg>param</arg>
+<arg>val</arg>
+<arg>uaaparam</arg>
+<arg>uaavalue</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="190" name="Verify Sla Demand Updated">
+<arguments>
+<arg>PROJECT</arg>
+<arg>request_id</arg>
+<arg>response_time</arg>
+<arg>status</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

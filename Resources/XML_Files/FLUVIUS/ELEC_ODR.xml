@@ -1,0 +1,32 @@
+<ami:MeterReadsRequestMessage
+	xmlns:ami="http://www.emeter.com/energyip/amiinterface">
+	<ami:header>
+		<ami:verb>request</ami:verb>
+		<ami:noun>MeterReads</ami:noun>
+		<ami:revision>1</ami:revision>
+		<ami:dateTime>2018-07-27T11:25:23.486+02:00</ami:dateTime>
+		<ami:source>FLUVIUS</ami:source>
+		<ami:messageID>202101061051</ami:messageID>
+		<ami:utilityId>FLUVIUS</ami:utilityId>
+	</ami:header>
+	<ami:payload>
+		<ami:startTime>2021-11-22T00:00:00</ami:startTime>
+		<ami:endTime>2021-11-23T01:00:00</ami:endTime>
+		<ami:Meter>
+			<ami:mRID>1SAG3100009611</ami:mRID>
+			<ami:idType>METER_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:modelNumber>DIG E-METER 2DR 230V 5(60)A</ami:modelNumber>
+			<ami:serialNumber>XYZ</ami:serialNumber>
+			<ami:numDigits>6</ami:numDigits>
+		</ami:Meter>
+		<ami:measurementProfile>PQ1</ami:measurementProfile>
+		<ami:retrieveRegisterReads>false</ami:retrieveRegisterReads>
+		<ami:retrieveIntervalReads>false</ami:retrieveIntervalReads>
+		<ami:demandReset>false</ami:demandReset>
+		<ami:retrieveEvents>false</ami:retrieveEvents>
+		<ami:requestPriority>3</ami:requestPriority>
+		<ami:executeStartTime>2021-01-06T10:40:23</ami:executeStartTime>
+		<ami:executeExpireTime>2018-07-28T09:25:23.000Z</ami:executeExpireTime>
+	</ami:payload>
+</ami:MeterReadsRequestMessage>

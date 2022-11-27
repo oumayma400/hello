@@ -1,0 +1,42 @@
+<MeterAssetUpdateRequestMessage
+	xmlns="http://www.emeter.com/energyip/amiinterface">
+	<header>
+		<verb>request</verb>
+		<noun>MeterUpdate</noun>
+		<revision>1</revision>
+		<dateTime>2021-11-02T14:43:04.198+01:00</dateTime>
+		<source>EIP</source>
+		<messageID>510</messageID>
+	</header>
+	<payload>
+		<meterAsset>
+			<mRID>SAG1030520045077</mRID>
+			<idType>METER_X_ELECTRONIC_ID</idType>
+			<parameter>
+				<name>profileName</name>
+				<value>setPowerFailureAlarmConfig</value>
+			</parameter>
+			<parameter>
+				<name>profile.setPowerFailureAlarmConfig.T1</name>
+				<value>0</value>
+			</parameter>
+			<parameter>
+				<name>profile.setPowerFailureAlarmConfig.T2</name>
+				<value>0</value>
+			</parameter>
+		</meterAsset>
+		<comFunction />
+		<serviceDeliveryPoint>
+			<locationCode></locationCode>
+			<serviceDeliveryRemarks></serviceDeliveryRemarks>
+			<latitude>0.0</latitude>
+			<longitude>0.0</longitude>
+		</serviceDeliveryPoint>
+		<serviceLocation />
+		<customerAccount>
+			<billingCycle></billingCycle>
+		</customerAccount>
+		<executeStartTime>2021-11-02T14:32:20.000+01:00</executeStartTime>
+		<executeExpireTime>2030-11-02T15:02:20.000+01:00</executeExpireTime>
+	</payload>
+</MeterAssetUpdateRequestMessage>

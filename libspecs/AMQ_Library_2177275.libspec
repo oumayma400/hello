@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-12T11:28:06Z" lineno="24" name="AMQ_Library" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\AMQ_Libraries\AMQ_Library.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Library for SICONIA Test non-regression.</doc>
+<kw lineno="168" name="Clean Queues">
+<arguments>
+<arg>queue: str</arg>
+<arg>host: str</arg>
+<arg>port: int</arg>
+<arg>user: str</arg>
+<arg>password: str</arg>
+</arguments>
+<doc>Consume message from ActiveMQ with a specific message ID  before Timeout
+
+*Args:*
+
+
+    | correlationID  | XML's correlationID ( message ID Used in Request ) to search on Queue  |
+    | correlationID  | XML's correlationID ( message ID Used in Request ) to search on Queue  |
+    | correlationIDPath | Path to correlationID in the xml response Example : reply/correlationId |
+    | timeout  | Max Time to wait for a message on queue |
+    | queue    | queue name  |
+    | host     | ActiveMQ host ( IP Address )  |
+    | port     | ActiveMQ Port  |
+    | user     | Queue username |
+    | password | Queue Password |</doc>
+</kw>
+<kw lineno="55" name="Consume">
+<arguments>
+<arg>queue: str</arg>
+<arg>correlationID: str</arg>
+<arg>correlationIDPath: str</arg>
+<arg>timeout: int</arg>
+<arg>host: str</arg>
+<arg>port: int</arg>
+<arg>user: str</arg>
+<arg>password: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="128" name="Consume Capabilities All">
+<arguments>
+<arg>queue: str</arg>
+<arg>meterID: str</arg>
+<arg>timeout: int</arg>
+<arg>host: str</arg>
+<arg>port: int</arg>
+<arg>user: str</arg>
+<arg>password: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="32" name="Inject">
+<arguments>
+<arg>message: str</arg>
+<arg>queue: str</arg>
+<arg>host: str</arg>
+<arg>port: int</arg>
+<arg>user: str</arg>
+<arg>password: str</arg>
+</arguments>
+<doc>Inject message into ActiveMQ
+
+*Args:*
+
+
+    | message  | XML message to inject into AMQ  on Queue |
+    | queue    | queue name  |
+    | host     | ActiveMQ host ( IP Address )  |
+    | port     | ActiveMQ Port  |
+    | user     | Queue username |
+    | password | Queue Password |</doc>
+</kw>
+<kw lineno="111" name="Inject With Gui">
+<arguments>
+<arg>message: str</arg>
+<arg>queue: str</arg>
+<arg>host: str</arg>
+<arg>port: str</arg>
+<arg>user: str</arg>
+<arg>password: str</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>

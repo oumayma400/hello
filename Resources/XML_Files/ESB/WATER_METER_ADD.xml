@@ -1,0 +1,67 @@
+<ami:MeterAssetAddRequestMessage
+	xmlns:ami="http://www.emeter.com/energyip/amiinterface">
+	<ami:header>
+		<ami:verb>request</ami:verb>
+		<ami:noun>MeterAdd</ami:noun>
+		<ami:revision>1</ami:revision>
+		<ami:dateTime>2018-07-27T11:03:00.261+02:00</ami:dateTime>
+		<ami:source>FLUVIUS</ami:source>
+		<ami:messageID>202101031606</ami:messageID>
+		<ami:utilityId>FLUVIUS</ami:utilityId>
+	</ami:header>
+	<ami:payload>
+		<ami:meterAsset>
+			<ami:mRID>8SET0077000068</ami:mRID>
+			<ami:idType>METER_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:parameter>
+				<ami:name>communicatie Meter ID SMR-E</ami:name>
+				<ami:value>1SAG3100009611</ami:value>
+			</ami:parameter>
+			<ami:parameter>
+				<ami:name>Opgeschort</ami:name>
+				<ami:value>Ja</ami:value>
+			</ami:parameter>
+			<ami:modelNumber>DIG G-METER G6 BALG QMAX10M³ 1PIJP</ami:modelNumber>
+			<ami:serialNumber>XYZ</ami:serialNumber>
+			<ami:serviceType>WATER</ami:serviceType>
+			<ami:gasMeter />
+			<ami:numDigits>6</ami:numDigits>
+		</ami:meterAsset>
+		<ami:comFunction>
+			<ami:mRID>CM_DEVICE_TEST_SMR-G_2_20180727_0002</ami:mRID>
+			<ami:idType>METER_COMMUNICATION_MODULE_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>Siconia</ami:pathName>
+		</ami:comFunction>
+		<ami:serviceDeliveryPoint>
+			<ami:mRID>SDP_TEST_SMR-G_2_20180727_0002</ami:mRID>
+			<ami:idType>SDP_X_UDC_ASSET_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:serviceType>SMR-G</ami:serviceType>
+			<ami:locationCode>DefaultLocationCode</ami:locationCode>
+			<ami:serviceDeliveryRemarks>DefaultServiceDeliveryRemarks</ami:serviceDeliveryRemarks>
+			<ami:latitude>0.0</ami:latitude>
+			<ami:longitude>0.0</ami:longitude>
+		</ami:serviceDeliveryPoint>
+		<ami:serviceLocation>
+			<ami:mRID>PREM_SDP_TEST_SMR-G_2_20180727_0002</ami:mRID>
+			<ami:idType>PREMISE_X_CLIENT_PRMSE_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:addressGeneral>-</ami:addressGeneral>
+			<ami:addressGeneral2>-</ami:addressGeneral2>
+			<ami:city>-</ami:city>
+			<ami:stateOrProvince>VLA</ami:stateOrProvince>
+			<ami:country>Belgium</ami:country>
+			<ami:postalCode>-</ami:postalCode>
+		</ami:serviceLocation>
+		<ami:customerAccount>
+			<ami:mRID>TEST2_180727000002</ami:mRID>
+			<ami:idType>ACCOUNT_X_UDC_ID</ami:idType>
+			<ami:pathName>FLUVIUS</ami:pathName>
+			<ami:billingCycle>DefaultBillingCycle</ami:billingCycle>
+		</ami:customerAccount>
+		<ami:requestPriority>3</ami:requestPriority>
+		<ami:executeStartTime>2020-07-28T17:10:44</ami:executeStartTime>
+		<ami:executeExpireTime>2018-07-28T09:03:00.000Z</ami:executeExpireTime>
+	</ami:payload>
+</ami:MeterAssetAddRequestMessage>

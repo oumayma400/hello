@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec format="ROBOT" generated="2022-04-11T08:00:16Z" lineno="1" name="XML_Verification_Library" namedargs="true" scope="GLOBAL" source="C:\Users\g551651\Desktop\Test_auto_esb_project\system_e2e_automation_tests-SYSTEM_AUTO_ESB\Libraries\XML_Libraries\XML_Verification_Library.py" specversion="2" type="LIBRARY">
+<version />
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``XML_Verification_Library``.</doc>
+<kw lineno="76" name="Check Flags">
+<arguments>
+<arg>flag</arg>
+<arg>k=0</arg>
+<arg>end=6</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="165" name="Get Dc Ssf Parameters">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="234" name="Get DCs Din Ldn From Ssf">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="206" name="Get Meters Din Ldn From Ssf">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="109" name="Get Ssf Parameters">
+<arguments>
+<arg>PROJECT</arg>
+<arg>ssf_name</arg>
+<arg>meter_type</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="25" name="Get Value By Path">
+<arguments>
+<arg>path: str</arg>
+<arg>xml: str</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="201" name="Namespace">
+<arguments>
+<arg>element</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="328" name="Valid">
+<arguments>
+<arg>L</arg>
+<arg>C</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="312" name="Valid CSV">
+<arguments>
+<arg>file</arg>
+<arg>profilename</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="267" name="Valid ODR">
+<arguments>
+<arg>Project</arg>
+<arg>ODR_TRI</arg>
+<arg>xml</arg>
+<arg>profilename</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="97" name="Validate Flag">
+<arguments>
+<arg>xml</arg>
+</arguments>
+<doc />
+</kw>
+<kw lineno="34" name="Verify Capa">
+<arguments>
+<arg>capaName: list</arg>
+<arg>xml: str</arg>
+<arg>expected_values: list</arg>
+<arg>expected_availibility: list</arg>
+</arguments>
+<doc />
+</kw>
+</keywordspec>
