@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import sys,os
 from pathlib import Path
-import pytz
+#import pytz
 import time
 import re
 path = Path(os.path.abspath(__file__))
